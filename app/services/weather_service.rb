@@ -10,6 +10,6 @@ class WeatherService
       req.params['key'] = key
       req.params['q'] = "#{city},#{state}"
     end
-    JSON.parse(response.body) if response.success?
+    data = JSON.parse(response.body) if response.success?
   end
 end
