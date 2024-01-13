@@ -45,11 +45,11 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   # gem 'bullet' not sure if will need, if need, ask if it is approved
+  gem 'factory_bot_rails'
 end
 
 group :test do
   gem 'rspec-rails'
-  gem 'factory_bot_rails'
   gem 'faker'
   gem 'webmock'
   gem 'vcr'
