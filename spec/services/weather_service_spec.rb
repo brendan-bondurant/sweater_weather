@@ -8,9 +8,12 @@ describe WeatherService do
     end
 
     it "returns parsed results", :vcr do
-      city = "Denver"
-      state = "CO" 
-      search = WeatherService.new.forecast(city, state)
+      coordinates = ({"lat"=>39.74001, "lng"=>-104.99202})
+      lat = coordinates["lat"]
+      lon = coordinates["lon"]
+      # city = "Denver"
+      # state = "CO" 
+      search = WeatherService.new.forecast(lat, lon)
       expect(search).to be_a Hash
     end
   end
