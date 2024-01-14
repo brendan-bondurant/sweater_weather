@@ -45,10 +45,10 @@ RSpec.describe WeatherFacade do
         'type': "forecast",
         'attributes':  {
           'current_weather':  {
-            'last_updated': "2024-01-14 14:45",
-            'temperature': 5.0,
-            'feels_like': 0.6,
-            'humidity': 55,
+            'last_updated': "2024-01-14 16:30",
+            'temperature': 8.1,
+            'feels_like': 1.5,
+            'humidity': 54,
             'uvi': 2.0,
             'visibility': 9.0,
             'condition': "Partly cloudy",
@@ -192,9 +192,9 @@ RSpec.describe WeatherFacade do
             },
             {
               'time': "2024-01-14 14:00", 
-              'temperature': 5.0, 
-              'conditions': "Partly cloudy", 
-              'icon': "//cdn.weatherapi.com/weather/64x64/day/116.png"
+              'temperature': 7.9, 
+              'conditions': "Sunny", 
+              'icon': "//cdn.weatherapi.com/weather/64x64/day/113.png"
             },
             {
               'time': "2024-01-14 15:00", 
@@ -204,9 +204,9 @@ RSpec.describe WeatherFacade do
             },
             {
               'time': "2024-01-14 16:00", 
-              'temperature': 10.3, 
-              'conditions': "Sunny", 
-              'icon': "//cdn.weatherapi.com/weather/64x64/day/113.png"
+              'temperature': 8.1, 
+              'conditions': "Partly cloudy", 
+              'icon': "//cdn.weatherapi.com/weather/64x64/day/116.png"
             },
             {
               'time': "2024-01-14 17:00", 
