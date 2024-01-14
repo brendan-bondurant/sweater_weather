@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 14 Jan 2024 15:56:56 GMT
+      - Sun, 14 Jan 2024 16:17:34 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -29,17 +29,17 @@ http_interactions:
       X-Ratelimit-Limit-2628000:
       - '1000000000'
       X-Ratelimit-Remaining-2628000:
-      - '999999907'
+      - '999999906'
       Ratelimit-Limit:
       - '1000000000'
       Ratelimit-Remaining:
-      - '999999907'
+      - '999999906'
       Ratelimit-Reset:
-      - '324184'
+      - '322946'
       X-Powered-By:
       - MapQuest
       X-Request-Id:
-      - 8ae96fb0-b2f5-11ee-b75e-59a1c9563f30
+      - 6cf6c810-b2f8-11ee-b75e-59a1c9563f30
       Access-Control-Allow-Origin:
       - "*"
       Etag:
@@ -48,7 +48,7 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJEZW52ZXIsQ08ifSwibG9jYXRpb25zIjpbeyJzdHJlZXQiOiIiLCJhZG1pbkFyZWE2IjoiIiwiYWRtaW5BcmVhNlR5cGUiOiJOZWlnaGJvcmhvb2QiLCJhZG1pbkFyZWE1IjoiRGVudmVyIiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiYWRtaW5BcmVhNCI6IkRlbnZlciIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6IkNPIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0IjozOS43NDAwMSwibG5nIjotMTA0Ljk5MjAyfSwiZGlzcGxheUxhdExuZyI6eyJsYXQiOjM5Ljc0MDAxLCJsbmciOi0xMDQuOTkyMDJ9LCJtYXBVcmwiOiIifV19XX0=
-  recorded_at: Sun, 14 Jan 2024 15:56:56 GMT
+  recorded_at: Sun, 14 Jan 2024 16:17:34 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=6&key=94481a89494042b1922163808241301&q=39.74001,-104.99202
@@ -68,7 +68,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 14 Jan 2024 15:56:56 GMT
+      - Sun, 14 Jan 2024 16:17:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -78,7 +78,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1069
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -94,7 +94,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999975'
       X-Varnish:
-      - '875693369'
+      - '1066205888'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -102,21 +102,21 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 01/14/2024 15:55:25
+      - 01/14/2024 16:17:34
       Cdn-Edgestorageid:
       - '845'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 26fbfc60c5253221e2589f4b050463d7
+      - 900b37c67ab9d5e35d329c509e612540
       Cdn-Cache:
-      - HIT
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Denver","region":"Colorado","country":"United
-        States of America","lat":39.74,"lon":-104.99,"tz_id":"America/Denver","localtime_epoch":1705247688,"localtime":"2024-01-14
-        8:54"},"current":{"last_updated":"2024-01-14 08:45","temp_f":-4.0,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"},"humidity":70,"feelslike_f":-16.1,"vis_miles":9.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2024-01-14","day":{"maxtemp_f":11.2,"mintemp_f":-2.5,"condition":{"text":"Patchy
+        States of America","lat":39.74,"lon":-104.99,"tz_id":"America/Denver","localtime_epoch":1705249017,"localtime":"2024-01-14
+        9:16"},"current":{"last_updated":"2024-01-14 09:15","temp_f":-2.9,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"},"humidity":67,"feelslike_f":-14.9,"vis_miles":9.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2024-01-14","day":{"maxtemp_f":11.2,"mintemp_f":-2.5,"condition":{"text":"Patchy
         moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/day/329.png"}},"astro":{"sunrise":"07:20
         AM","sunset":"04:58 PM"},"hour":[{"time":"2024-01-14 00:00","temp_f":-2.2,"condition":{"text":"Partly
         cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-14
@@ -127,8 +127,8 @@ http_interactions:
         05:00","temp_f":-1.4,"condition":{"text":"Patchy moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/329.png","code":1216}},{"time":"2024-01-14
         06:00","temp_f":-1.4,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-14
         07:00","temp_f":-1.4,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-14
-        08:00","temp_f":-4.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-14
-        09:00","temp_f":-0.2,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-14
+        08:00","temp_f":-1.0,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-14
+        09:00","temp_f":-2.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-14
         10:00","temp_f":0.7,"condition":{"text":"Patchy light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/323.png","code":1210}},{"time":"2024-01-14
         11:00","temp_f":2.1,"condition":{"text":"Patchy moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/day/329.png","code":1216}},{"time":"2024-01-14
         12:00","temp_f":4.0,"condition":{"text":"Patchy light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/323.png","code":1210}},{"time":"2024-01-14
@@ -268,5 +268,5 @@ http_interactions:
         21:00","temp_f":20.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-19
         22:00","temp_f":19.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-19
         23:00","temp_f":19.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}}]}]}}'
-  recorded_at: Sun, 14 Jan 2024 15:56:56 GMT
+  recorded_at: Sun, 14 Jan 2024 16:17:35 GMT
 recorded_with: VCR 6.2.0
