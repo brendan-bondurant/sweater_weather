@@ -1,0 +1,272 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/geocoding/v1/address?key=n8Jsf6Hy3JjrrUjZ3YoGxWQOvQUu1YBz&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 14 Jan 2024 21:39:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '797'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-2628000:
+      - '1000000000'
+      X-Ratelimit-Remaining-2628000:
+      - '999999903'
+      Ratelimit-Limit:
+      - '1000000000'
+      Ratelimit-Remaining:
+      - '999999903'
+      Ratelimit-Reset:
+      - '303640'
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - 5ff7eef0-b325-11ee-b75e-59a1c9563f30
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"31d-Mbjh6n54X4V7FeaQKoW5jnBZ1ZI"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJEZW52ZXIsQ08ifSwibG9jYXRpb25zIjpbeyJzdHJlZXQiOiIiLCJhZG1pbkFyZWE2IjoiIiwiYWRtaW5BcmVhNlR5cGUiOiJOZWlnaGJvcmhvb2QiLCJhZG1pbkFyZWE1IjoiRGVudmVyIiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiYWRtaW5BcmVhNCI6IkRlbnZlciIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6IkNPIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0IjozOS43NDAwMSwibG5nIjotMTA0Ljk5MjAyfSwiZGlzcGxheUxhdExuZyI6eyJsYXQiOjM5Ljc0MDAxLCJsbmciOi0xMDQuOTkyMDJ9LCJtYXBVcmwiOiIifV19XX0=
+  recorded_at: Sun, 14 Jan 2024 21:39:20 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=6&key=94481a89494042b1922163808241301&q=39.74001,-104.99202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 14 Jan 2024 21:39:21 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-941
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999973'
+      X-Varnish:
+      - '79366940'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 01/14/2024 21:39:21
+      Cdn-Edgestorageid:
+      - '845'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - e97fb2cb58f98ae75885ebec1d23d7f6
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Denver","region":"Colorado","country":"United
+        States of America","lat":39.74,"lon":-104.99,"tz_id":"America/Denver","localtime_epoch":1705268323,"localtime":"2024-01-14
+        14:38"},"current":{"last_updated":"2024-01-14 14:30","temp_f":5.0,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"},"humidity":55,"feelslike_f":0.6,"vis_miles":9.0,"uv":2.0},"forecast":{"forecastday":[{"date":"2024-01-14","day":{"maxtemp_f":11.1,"mintemp_f":-3.9,"condition":{"text":"Light
+        snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png"}},"astro":{"sunrise":"07:20
+        AM","sunset":"04:58 PM"},"hour":[{"time":"2024-01-14 00:00","temp_f":-2.2,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-14
+        01:00","temp_f":-2.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-14
+        02:00","temp_f":-2.3,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-14
+        03:00","temp_f":-2.0,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-14
+        04:00","temp_f":-1.7,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-14
+        05:00","temp_f":-1.4,"condition":{"text":"Patchy moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/329.png","code":1216}},{"time":"2024-01-14
+        06:00","temp_f":-1.4,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-14
+        07:00","temp_f":-1.4,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-14
+        08:00","temp_f":-1.0,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-14
+        09:00","temp_f":-0.2,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-14
+        10:00","temp_f":0.7,"condition":{"text":"Patchy light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/323.png","code":1210}},{"time":"2024-01-14
+        11:00","temp_f":2.1,"condition":{"text":"Patchy moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/day/329.png","code":1216}},{"time":"2024-01-14
+        12:00","temp_f":4.0,"condition":{"text":"Patchy light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/323.png","code":1210}},{"time":"2024-01-14
+        13:00","temp_f":6.0,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/day/311.png","code":1198}},{"time":"2024-01-14
+        14:00","temp_f":5.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-14
+        15:00","temp_f":9.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-14
+        16:00","temp_f":10.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-14
+        17:00","temp_f":10.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-14
+        18:00","temp_f":9.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-14
+        19:00","temp_f":8.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-14
+        20:00","temp_f":8.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-14
+        21:00","temp_f":8.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-14
+        22:00","temp_f":7.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-14
+        23:00","temp_f":7.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}}]},{"date":"2024-01-15","day":{"maxtemp_f":6.0,"mintemp_f":3.3,"condition":{"text":"Moderate
+        snow","icon":"//cdn.weatherapi.com/weather/64x64/day/332.png"}},"astro":{"sunrise":"07:20
+        AM","sunset":"05:00 PM"},"hour":[{"time":"2024-01-15 00:00","temp_f":6.8,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        01:00","temp_f":6.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-15
+        02:00","temp_f":5.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        03:00","temp_f":4.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        04:00","temp_f":3.8,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-15
+        05:00","temp_f":3.5,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-15
+        06:00","temp_f":3.3,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-15
+        07:00","temp_f":3.4,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/332.png","code":1219}},{"time":"2024-01-15
+        08:00","temp_f":3.4,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/day/332.png","code":1219}},{"time":"2024-01-15
+        09:00","temp_f":4.0,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/day/332.png","code":1219}},{"time":"2024-01-15
+        10:00","temp_f":4.7,"condition":{"text":"Patchy moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/day/329.png","code":1216}},{"time":"2024-01-15
+        11:00","temp_f":5.2,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-15
+        12:00","temp_f":5.1,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-15
+        13:00","temp_f":5.0,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-15
+        14:00","temp_f":4.7,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-15
+        15:00","temp_f":4.4,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-15
+        16:00","temp_f":4.0,"condition":{"text":"Moderate or heavy snow showers","icon":"//cdn.weatherapi.com/weather/64x64/day/371.png","code":1258}},{"time":"2024-01-15
+        17:00","temp_f":3.4,"condition":{"text":"Moderate or heavy snow showers","icon":"//cdn.weatherapi.com/weather/64x64/night/371.png","code":1258}},{"time":"2024-01-15
+        18:00","temp_f":2.9,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-15
+        19:00","temp_f":2.6,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-15
+        20:00","temp_f":2.5,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-15
+        21:00","temp_f":2.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        22:00","temp_f":2.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        23:00","temp_f":2.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}}]},{"date":"2024-01-16","day":{"maxtemp_f":30.0,"mintemp_f":4.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},"astro":{"sunrise":"07:19
+        AM","sunset":"05:01 PM"},"hour":[{"time":"2024-01-16 00:00","temp_f":1.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        01:00","temp_f":1.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        02:00","temp_f":1.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        03:00","temp_f":1.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        04:00","temp_f":0.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        05:00","temp_f":1.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        06:00","temp_f":1.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        07:00","temp_f":1.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        08:00","temp_f":3.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        09:00","temp_f":7.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        10:00","temp_f":12.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        11:00","temp_f":17.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        12:00","temp_f":21.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        13:00","temp_f":25.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        14:00","temp_f":27.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        15:00","temp_f":29.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        16:00","temp_f":28.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        17:00","temp_f":24.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        18:00","temp_f":21.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        19:00","temp_f":20.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-16
+        20:00","temp_f":18.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-16
+        21:00","temp_f":17.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        22:00","temp_f":17.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        23:00","temp_f":16.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}}]},{"date":"2024-01-17","day":{"maxtemp_f":35.3,"mintemp_f":17.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},"astro":{"sunrise":"07:19
+        AM","sunset":"05:02 PM"},"hour":[{"time":"2024-01-17 00:00","temp_f":16.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        01:00","temp_f":16.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        02:00","temp_f":16.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        03:00","temp_f":16.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        04:00","temp_f":17.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        05:00","temp_f":17.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        06:00","temp_f":17.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        07:00","temp_f":17.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        08:00","temp_f":18.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        09:00","temp_f":21.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        10:00","temp_f":25.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        11:00","temp_f":29.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        12:00","temp_f":31.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-17
+        13:00","temp_f":32.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        14:00","temp_f":33.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        15:00","temp_f":33.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        16:00","temp_f":32.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        17:00","temp_f":29.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        18:00","temp_f":27.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-17
+        19:00","temp_f":26.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-17
+        20:00","temp_f":25.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-17
+        21:00","temp_f":24.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-17
+        22:00","temp_f":22.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-17
+        23:00","temp_f":21.5,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}}]},{"date":"2024-01-18","day":{"maxtemp_f":33.2,"mintemp_f":17.3,"condition":{"text":"Light
+        freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/day/311.png"}},"astro":{"sunrise":"07:18
+        AM","sunset":"05:03 PM"},"hour":[{"time":"2024-01-18 00:00","temp_f":20.8,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-18
+        01:00","temp_f":20.2,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-18
+        02:00","temp_f":19.9,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-18
+        03:00","temp_f":19.7,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-18
+        04:00","temp_f":19.2,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-18
+        05:00","temp_f":18.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-18
+        06:00","temp_f":18.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-18
+        07:00","temp_f":18.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-18
+        08:00","temp_f":19.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        09:00","temp_f":21.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        10:00","temp_f":24.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        11:00","temp_f":28.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        12:00","temp_f":32.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-18
+        13:00","temp_f":34.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-18
+        14:00","temp_f":36.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-18
+        15:00","temp_f":37.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-18
+        16:00","temp_f":37.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-18
+        17:00","temp_f":35.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-18
+        18:00","temp_f":31.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-18
+        19:00","temp_f":26.9,"condition":{"text":"Patchy moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/329.png","code":1216}},{"time":"2024-01-18
+        20:00","temp_f":21.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-18
+        21:00","temp_f":18.8,"condition":{"text":"Patchy moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/329.png","code":1216}},{"time":"2024-01-18
+        22:00","temp_f":16.6,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-18
+        23:00","temp_f":14.8,"condition":{"text":"Patchy moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/329.png","code":1216}}]},{"date":"2024-01-19","day":{"maxtemp_f":37.1,"mintemp_f":18.5,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},"astro":{"sunrise":"07:18
+        AM","sunset":"05:04 PM"},"hour":[{"time":"2024-01-19 00:00","temp_f":13.9,"condition":{"text":"Light
+        snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-19
+        01:00","temp_f":13.4,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        02:00","temp_f":13.1,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-19
+        03:00","temp_f":13.0,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        04:00","temp_f":13.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-19
+        05:00","temp_f":13.0,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        06:00","temp_f":13.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-19
+        07:00","temp_f":13.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-19
+        08:00","temp_f":13.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-19
+        09:00","temp_f":15.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        10:00","temp_f":17.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        11:00","temp_f":19.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        12:00","temp_f":21.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        13:00","temp_f":23.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        14:00","temp_f":24.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        15:00","temp_f":25.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        16:00","temp_f":25.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        17:00","temp_f":24.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        18:00","temp_f":23.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-19
+        19:00","temp_f":22.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-19
+        20:00","temp_f":20.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-19
+        21:00","temp_f":20.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-19
+        22:00","temp_f":19.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-19
+        23:00","temp_f":19.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}}]}]}}'
+  recorded_at: Sun, 14 Jan 2024 21:39:21 GMT
+recorded_with: VCR 6.2.0
