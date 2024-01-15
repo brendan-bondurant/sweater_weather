@@ -7,5 +7,7 @@ class RestaurantFacade
 
   def restaurant_info
     json = YelpService.new.type_of_food(@food_type, @location)
+
   end
+
 end
