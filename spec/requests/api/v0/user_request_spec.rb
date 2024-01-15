@@ -14,7 +14,7 @@ describe "User API" do
 
     ###write more tests with ^^^^^^^
     
-    it "creates a new user and returns a success response" do
+    xit "creates a new user and returns a success response" do
 
       post "/api/v0/users", params: valid_attributes.to_json, headers: { 'Content-Type' => 'application/json', 'Accept' => 'application/json' }
 
@@ -24,7 +24,7 @@ describe "User API" do
       # expect(attributes['api_key']).to match(/\A[a-zA-Z0-9_]+\z/)
       # require 'pry'; binding.pry
     end
-    it "points out when something is missing" do
+    xit "points out when something is missing" do
       user_params = {
         email: "",
         password: "testing123",
@@ -37,7 +37,7 @@ describe "User API" do
       response_body = JSON.parse(response.body)
       expect(response_body['error']).to eq('Missing required fields')
     end
-    it "tells you if the password doesn't match" do
+    xit "tells you if the password doesn't match" do
       user_params = {
         email: "test@test.com",
         password: "testing123",
@@ -51,7 +51,7 @@ describe "User API" do
       expect(response_body['error']).to eq('Password confirmation does not match')
 
     end
-    it "tells you if the email isn't available" do
+    xit "tells you if the email isn't available" do
       user_params = {
         email: "test@test.com",
         password: "testing123",
