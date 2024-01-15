@@ -5,6 +5,5 @@ describe "Forecast API" do
     
     get '/api/v0/forecasts'
     expect(response).to be_successful
-
   end
 end

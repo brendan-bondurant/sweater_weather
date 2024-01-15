@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_01_13_204431) do
+ActiveRecord::Schema[7.0].define(version: 2024_01_15_000348) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "current_weathers", force: :cascade do |t|
+  create_table "current_weather", force: :cascade do |t|
     t.datetime "last_updated"
     t.float "temperature"
     t.float "feels_like"
@@ -26,7 +26,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_13_204431) do
     t.bigint "forecast_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["forecast_id"], name: "index_current_weathers_on_forecast_id"
+    t.index ["forecast_id"], name: "index_current_weather_on_forecast_id"
   end
 
   create_table "daily_weathers", force: :cascade do |t|
@@ -60,7 +60,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_13_204431) do
     t.index ["forecast_id"], name: "index_hourly_weathers_on_forecast_id"
   end
 
-  add_foreign_key "current_weathers", "forecasts"
+  add_foreign_key "current_weather", "forecasts"
   add_foreign_key "daily_weathers", "forecasts"
   add_foreign_key "hourly_weathers", "forecasts"
 end
