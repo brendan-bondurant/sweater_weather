@@ -22,7 +22,6 @@ describe "User API" do
       # expect(response_body['data']['type']).to eq('users')
       # expect(attributes['email']).to eq('whatever@example.com')
       # expect(attributes['api_key']).to match(/\A[a-zA-Z0-9_]+\z/)
-      # require 'pry'; binding.pry
     end
     xit "points out when something is missing" do
       user_params = {

@@ -4,7 +4,6 @@ class Api::V1::MunchiesController < ApplicationController
     food = params["food"]
     forecast_data = get_forecast_data(destination)
     restaurant_data = get_restaurant_data(food, destination)
-    # require 'pry'; binding.pry
 
     response_data = {
       data: {
@@ -18,7 +17,6 @@ class Api::V1::MunchiesController < ApplicationController
       }
     }
     json_response = response_data.to_json
-    require 'pry'; binding.pry
     render json: json_response
 
   end
