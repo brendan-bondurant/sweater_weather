@@ -1,0 +1,533 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/geocoding/v1/address?key=n8Jsf6Hy3JjrrUjZ3YoGxWQOvQUu1YBz&location=New%20York
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 15 Jan 2024 18:16:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1282'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-2628000:
+      - '1000000000'
+      X-Ratelimit-Remaining-2628000:
+      - '999999815'
+      Ratelimit-Limit:
+      - '1000000000'
+      Ratelimit-Remaining:
+      - '999999815'
+      Ratelimit-Reset:
+      - '229424'
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - 2c4cd180-b3d2-11ee-a1f9-3940980a923d
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"502-6l7fnWkLyigpPqGmllRORTRRtpw"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJOZXcgWW9yayJ9LCJsb2NhdGlvbnMiOlt7InN0cmVldCI6IiIsImFkbWluQXJlYTYiOiIiLCJhZG1pbkFyZWE2VHlwZSI6Ik5laWdoYm9yaG9vZCIsImFkbWluQXJlYTUiOiJOZXcgWW9yayIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJOZXcgWW9yayIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6Ik5ZIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0Ijo0MC43MTQ1MywibG5nIjotNzQuMDA3MTJ9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6NDAuNzE0NTMsImxuZyI6LTc0LjAwNzEyfSwibWFwVXJsIjoiIn0seyJzdHJlZXQiOiIiLCJhZG1pbkFyZWE2IjoiIiwiYWRtaW5BcmVhNlR5cGUiOiJOZWlnaGJvcmhvb2QiLCJhZG1pbkFyZWE1IjoiIiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiYWRtaW5BcmVhNCI6IiIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6Ik5ZIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBM1hBWCIsImdlb2NvZGVRdWFsaXR5IjoiU1RBVEUiLCJkcmFnUG9pbnQiOmZhbHNlLCJzaWRlT2ZTdHJlZXQiOiJOIiwibGlua0lkIjoiMCIsInVua25vd25JbnB1dCI6IiIsInR5cGUiOiJzIiwibGF0TG5nIjp7ImxhdCI6NDIuNjUxNTUsImxuZyI6LTczLjc1NTIyfSwiZGlzcGxheUxhdExuZyI6eyJsYXQiOjQyLjY1MTU1LCJsbmciOi03My43NTUyMn0sIm1hcFVybCI6IiJ9XX1dfQ==
+  recorded_at: Mon, 15 Jan 2024 18:16:16 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=6&key=94481a89494042b1922163808241301&q=40.71453,-74.00712
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 15 Jan 2024 18:16:16 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999955'
+      X-Varnish:
+      - '192839815'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 01/15/2024 18:16:16
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 283a13cbedb997413f6218e6c219bd6f
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"New York","region":"New York","country":"United
+        States of America","lat":40.71,"lon":-74.01,"tz_id":"America/New_York","localtime_epoch":1705342538,"localtime":"2024-01-15
+        13:15"},"current":{"last_updated":"2024-01-15 13:15","temp_f":28.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png"},"humidity":34,"feelslike_f":20.6,"vis_miles":9.0,"uv":2.0},"forecast":{"forecastday":[{"date":"2024-01-15","day":{"maxtemp_f":32.1,"mintemp_f":27.5,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},"astro":{"sunrise":"07:18
+        AM","sunset":"04:53 PM"},"hour":[{"time":"2024-01-15 00:00","temp_f":28.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-15
+        01:00","temp_f":28.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        02:00","temp_f":28.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        03:00","temp_f":28.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        04:00","temp_f":27.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        05:00","temp_f":27.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        06:00","temp_f":27.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        07:00","temp_f":27.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-15
+        08:00","temp_f":27.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-15
+        09:00","temp_f":28.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-15
+        10:00","temp_f":28.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-15
+        11:00","temp_f":29.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-15
+        12:00","temp_f":30.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-15
+        13:00","temp_f":28.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-15
+        14:00","temp_f":31.5,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-15
+        15:00","temp_f":32.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-15
+        16:00","temp_f":32.2,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-15
+        17:00","temp_f":32.1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-15
+        18:00","temp_f":31.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-15
+        19:00","temp_f":31.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}},{"time":"2024-01-15
+        20:00","temp_f":31.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-15
+        21:00","temp_f":31.3,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-15
+        22:00","temp_f":30.4,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-15
+        23:00","temp_f":29.3,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/332.png","code":1219}}]},{"date":"2024-01-16","day":{"maxtemp_f":34.0,"mintemp_f":25.9,"condition":{"text":"Heavy
+        snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png"}},"astro":{"sunrise":"07:18
+        AM","sunset":"04:54 PM"},"hour":[{"time":"2024-01-16 00:00","temp_f":28.8,"condition":{"text":"Heavy
+        snow","icon":"//cdn.weatherapi.com/weather/64x64/night/338.png","code":1225}},{"time":"2024-01-16
+        01:00","temp_f":28.7,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/night/338.png","code":1225}},{"time":"2024-01-16
+        02:00","temp_f":28.8,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/night/338.png","code":1225}},{"time":"2024-01-16
+        03:00","temp_f":29.0,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/night/338.png","code":1225}},{"time":"2024-01-16
+        04:00","temp_f":29.3,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/night/338.png","code":1225}},{"time":"2024-01-16
+        05:00","temp_f":29.7,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/night/338.png","code":1225}},{"time":"2024-01-16
+        06:00","temp_f":30.1,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/night/338.png","code":1225}},{"time":"2024-01-16
+        07:00","temp_f":30.6,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/night/338.png","code":1225}},{"time":"2024-01-16
+        08:00","temp_f":31.0,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-16
+        09:00","temp_f":31.5,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-16
+        10:00","temp_f":31.5,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-16
+        11:00","temp_f":31.4,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-16
+        12:00","temp_f":31.5,"condition":{"text":"Light sleet","icon":"//cdn.weatherapi.com/weather/64x64/day/317.png","code":1204}},{"time":"2024-01-16
+        13:00","temp_f":31.7,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-16
+        14:00","temp_f":32.2,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-16
+        15:00","temp_f":32.9,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-16
+        16:00","temp_f":33.4,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/day/311.png","code":1198}},{"time":"2024-01-16
+        17:00","temp_f":32.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063}},{"time":"2024-01-16
+        18:00","temp_f":30.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-16
+        19:00","temp_f":28.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        20:00","temp_f":27.1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-16
+        21:00","temp_f":25.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        22:00","temp_f":25.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        23:00","temp_f":24.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}}]},{"date":"2024-01-17","day":{"maxtemp_f":26.1,"mintemp_f":20.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},"astro":{"sunrise":"07:17
+        AM","sunset":"04:55 PM"},"hour":[{"time":"2024-01-17 00:00","temp_f":23.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        01:00","temp_f":23.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        02:00","temp_f":22.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        03:00","temp_f":22.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        04:00","temp_f":21.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        05:00","temp_f":21.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        06:00","temp_f":20.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        07:00","temp_f":20.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        08:00","temp_f":19.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        09:00","temp_f":20.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        10:00","temp_f":20.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        11:00","temp_f":21.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        12:00","temp_f":22.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        13:00","temp_f":23.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        14:00","temp_f":24.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        15:00","temp_f":24.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        16:00","temp_f":24.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        17:00","temp_f":24.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        18:00","temp_f":23.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        19:00","temp_f":23.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        20:00","temp_f":23.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        21:00","temp_f":23.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        22:00","temp_f":23.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        23:00","temp_f":23.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}}]},{"date":"2024-01-18","day":{"maxtemp_f":30.4,"mintemp_f":24.9,"condition":{"text":"Moderate
+        snow","icon":"//cdn.weatherapi.com/weather/64x64/day/332.png"}},"astro":{"sunrise":"07:17
+        AM","sunset":"04:56 PM"},"hour":[{"time":"2024-01-18 00:00","temp_f":23.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-18
+        01:00","temp_f":23.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-18
+        02:00","temp_f":23.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-18
+        03:00","temp_f":23.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-18
+        04:00","temp_f":23.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-18
+        05:00","temp_f":23.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-18
+        06:00","temp_f":23.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-18
+        07:00","temp_f":24.0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-18
+        08:00","temp_f":24.3,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-18
+        09:00","temp_f":24.8,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-18
+        10:00","temp_f":25.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-18
+        11:00","temp_f":26.4,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-18
+        12:00","temp_f":27.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        13:00","temp_f":28.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        14:00","temp_f":28.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-18
+        15:00","temp_f":28.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-18
+        16:00","temp_f":28.1,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-18
+        17:00","temp_f":27.7,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-18
+        18:00","temp_f":27.6,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/332.png","code":1219}},{"time":"2024-01-18
+        19:00","temp_f":27.6,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/332.png","code":1219}},{"time":"2024-01-18
+        20:00","temp_f":27.7,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/332.png","code":1219}},{"time":"2024-01-18
+        21:00","temp_f":28.0,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-18
+        22:00","temp_f":28.4,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-18
+        23:00","temp_f":28.8,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}}]},{"date":"2024-01-19","day":{"maxtemp_f":30.6,"mintemp_f":19.7,"condition":{"text":"Heavy
+        snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png"}},"astro":{"sunrise":"07:16
+        AM","sunset":"04:57 PM"},"hour":[{"time":"2024-01-19 00:00","temp_f":29.1,"condition":{"text":"Light
+        freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        01:00","temp_f":29.1,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        02:00","temp_f":28.9,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/332.png","code":1219}},{"time":"2024-01-19
+        03:00","temp_f":28.8,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/332.png","code":1219}},{"time":"2024-01-19
+        04:00","temp_f":28.9,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-19
+        05:00","temp_f":29.1,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        06:00","temp_f":29.2,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-19
+        07:00","temp_f":29.2,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-19
+        08:00","temp_f":29.3,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/day/311.png","code":1198}},{"time":"2024-01-19
+        09:00","temp_f":29.6,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-19
+        10:00","temp_f":30.1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-19
+        11:00","temp_f":30.5,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-19
+        12:00","temp_f":30.6,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-19
+        13:00","temp_f":30.4,"condition":{"text":"Light snow showers","icon":"//cdn.weatherapi.com/weather/64x64/day/368.png","code":1255}},{"time":"2024-01-19
+        14:00","temp_f":30.5,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-19
+        15:00","temp_f":30.4,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-19
+        16:00","temp_f":29.9,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/day/311.png","code":1198}},{"time":"2024-01-19
+        17:00","temp_f":29.0,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        18:00","temp_f":28.1,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        19:00","temp_f":27.1,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        20:00","temp_f":26.0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-19
+        21:00","temp_f":24.6,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-19
+        22:00","temp_f":22.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-19
+        23:00","temp_f":21.4,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}}]},{"date":"2024-01-20","day":{"maxtemp_f":19.8,"mintemp_f":13.7,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},"astro":{"sunrise":"07:16
+        AM","sunset":"04:59 PM"},"hour":[{"time":"2024-01-20 00:00","temp_f":20.1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-20
+        01:00","temp_f":19.0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-20
+        02:00","temp_f":18.2,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-20
+        03:00","temp_f":17.5,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-20
+        04:00","temp_f":17.0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-20
+        05:00","temp_f":16.5,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-20
+        06:00","temp_f":16.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-20
+        07:00","temp_f":15.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-20
+        08:00","temp_f":15.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-20
+        09:00","temp_f":16.0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-20
+        10:00","temp_f":16.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-20
+        11:00","temp_f":17.3,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-20
+        12:00","temp_f":18.4,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-20
+        13:00","temp_f":19.5,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-20
+        14:00","temp_f":20.5,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-20
+        15:00","temp_f":21.4,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-20
+        16:00","temp_f":22.2,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-20
+        17:00","temp_f":22.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-20
+        18:00","temp_f":22.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}},{"time":"2024-01-20
+        19:00","temp_f":22.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-20
+        20:00","temp_f":22.9,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}},{"time":"2024-01-20
+        21:00","temp_f":23.1,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}},{"time":"2024-01-20
+        22:00","temp_f":23.1,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}},{"time":"2024-01-20
+        23:00","temp_f":23.3,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}}]}]}}'
+  recorded_at: Mon, 15 Jan 2024 18:16:16 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?location=New%20York&term=Pizza
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer XRH4RCvR8zmt8Q9_rxV9PUQxaCTzav4-TEJeXByMubmiK9m_gE0uO8-KOm9jDKo3LL7sEci866DZ2c2E6DIiBJT0Bj1K2mfVfji-JgzdWBjGqzY3zBH9HxDK57ycZXYx
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Routing-Service:
+      - routing-main--useast1-74f644dc4b-mvqc5; site=public_api_v3
+      Ratelimit-Remaining:
+      - '466.0'
+      X-Zipkin-Id:
+      - 1a6e57b0317afa1b
+      Ratelimit-Resettime:
+      - '2024-01-16T00:00:00+00:00'
+      X-B3-Sampled:
+      - '0'
+      Server:
+      - envoy
+      Ratelimit-Dailylimit:
+      - '500.0'
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-176-91-useast1bprod
+      X-Extlb:
+      - 10-65-176-91-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 15 Jan 2024 18:16:17 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-chi-klot8100080-CHI
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Alt-Svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "ysqgdbSrezXgVwER2kQWKA", "alias": "julianas-brooklyn-3",
+        "name": "Juliana''s", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/od36nFW220aMFAnNP00ocw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/julianas-brooklyn-3?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 2742, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 40.70274718768062, "longitude":
+        -73.99343490196397}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "19 Old Fulton St", "address2": "", "address3": "", "city": "Brooklyn",
+        "zip_code": "11201", "country": "US", "state": "NY", "display_address": ["19
+        Old Fulton St", "Brooklyn, NY 11201"]}, "phone": "+17185966700", "display_phone":
+        "(718) 596-6700", "distance": 308.56984360837544}, {"id": "zj8Lq1T8KIC5zwFief15jg",
+        "alias": "prince-street-pizza-new-york-2", "name": "Prince Street Pizza",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/bckPg7Lznyf4rQSqvCJ2WA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/prince-street-pizza-new-york-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 5166, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}], "rating": 4.5, "coordinates": {"latitude":
+        40.72308755605564, "longitude": -73.99453001177575}, "transactions": ["delivery",
+        "pickup"], "price": "$", "location": {"address1": "27 Prince St", "address2":
+        null, "address3": "", "city": "New York", "zip_code": "10012", "country":
+        "US", "state": "NY", "display_address": ["27 Prince St", "New York, NY 10012"]},
+        "phone": "+12129664100", "display_phone": "(212) 966-4100", "distance": 1961.8771417367063},
+        {"id": "G9hV4H2iGpWD8RoUpjtokg", "alias": "l-industrie-pizzeria-new-york",
+        "name": "L\u2019industrie Pizzeria", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_ClrWIn3hJDFbf5UR0vtMg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/l-industrie-pizzeria-new-york?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 85, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 5.0, "coordinates": {"latitude": 40.73323443774397, "longitude":
+        -74.0049081}, "transactions": [], "location": {"address1": "104 Christopher
+        St", "address2": "", "address3": null, "city": "New York", "zip_code": "10014",
+        "country": "US", "state": "NY", "display_address": ["104 Christopher St",
+        "New York, NY 10014"]}, "phone": "", "display_phone": "", "distance": 3216.943100434747},
+        {"id": "v1DHGRNCH9247WLYoaoA9A", "alias": "l-industrie-pizzeria-brooklyn",
+        "name": "L''industrie Pizzeria", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/1-VBwAOj0g9YKYey3V-Z6Q/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/l-industrie-pizzeria-brooklyn?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 1222, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 40.71162, "longitude": -73.95783},
+        "transactions": ["delivery", "pickup"], "price": "$", "location": {"address1":
+        "254 S 2nd St", "address2": "", "address3": "", "city": "Brooklyn", "zip_code":
+        "11211", "country": "US", "state": "NY", "display_address": ["254 S 2nd St",
+        "Brooklyn, NY 11211"]}, "phone": "+17185990002", "display_phone": "(718) 599-0002",
+        "distance": 3145.016041338447}, {"id": "WG639VkTjmK5dzydd1BBJA", "alias":
+        "rubirosa-new-york-2", "name": "Rubirosa", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/l0Phrnhhj78RFiDhLIOUyQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/rubirosa-new-york-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 3258, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "pizza", "title": "Pizza"}], "rating": 4.5, "coordinates": {"latitude":
+        40.722766, "longitude": -73.996233}, "transactions": ["pickup"], "price":
+        "$$", "location": {"address1": "235 Mulberry St", "address2": "", "address3":
+        "", "city": "New York", "zip_code": "10012", "country": "US", "state": "NY",
+        "display_address": ["235 Mulberry St", "New York, NY 10012"]}, "phone": "+12129650500",
+        "display_phone": "(212) 965-0500", "distance": 1932.9467701334759}, {"id":
+        "2ggi1luerd3Mf_C82JvCYg", "alias": "grimaldis-pizzeria-brooklyn-4", "name":
+        "Grimaldi''s Pizzeria", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-vwbIOY8hlTeWnrS74jQMg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/grimaldis-pizzeria-brooklyn-4?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 4983, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "desserts", "title": "Desserts"}, {"alias": "beer_and_wine", "title":
+        "Beer, Wine & Spirits"}], "rating": 3.5, "coordinates": {"latitude": 40.7026459,
+        "longitude": -73.9932413}, "transactions": ["delivery", "pickup"], "price":
+        "$$", "location": {"address1": "1 Front St", "address2": "", "address3": "",
+        "city": "Brooklyn", "zip_code": "11201", "country": "US", "state": "NY", "display_address":
+        ["1 Front St", "Brooklyn, NY 11201"]}, "phone": "+17188584300", "display_phone":
+        "(718) 858-4300", "distance": 323.61541267581333}, {"id": "hZBxJfZtDjnMzH_jNFNHRQ",
+        "alias": "little-pizza-parlor-brooklyn", "name": "Little Pizza Parlor", "image_url":
+        "https://s3-media1.fl.yelpcdn.com/bphoto/jXQyfTZrmrJ3ra7nfPh4FQ/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/little-pizza-parlor-brooklyn?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 68, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 40.692425, "longitude": -73.984467},
+        "transactions": ["delivery", "pickup"], "location": {"address1": "192 Duffield
+        St", "address2": null, "address3": "", "city": "Brooklyn", "zip_code": "11201",
+        "country": "US", "state": "NY", "display_address": ["192 Duffield St", "Brooklyn,
+        NY 11201"]}, "phone": "+13477991249", "display_phone": "(347) 799-1249", "distance":
+        1668.414103945315}, {"id": "uc5qQMzs96rzjK27epDCug", "alias": "joes-pizza-new-york-4",
+        "name": "Joe''s Pizza", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/FKjd9RGuNH-ixnd7AQxj0g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/joes-pizza-new-york-4?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 3095, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.0, "coordinates": {"latitude": 40.73060076, "longitude": -74.00215997},
+        "transactions": ["delivery"], "price": "$", "location": {"address1": "7 Carmine
+        St", "address2": "", "address3": "", "city": "New York", "zip_code": "10014",
+        "country": "US", "state": "NY", "display_address": ["7 Carmine St", "New York,
+        NY 10014"]}, "phone": "+12123661182", "display_phone": "(212) 366-1182", "distance":
+        2874.702513677348}, {"id": "KEEXuHCYhsQJ-zpJhu98bA", "alias": "joes-pizza-new-york-148",
+        "name": "Joe''s Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/FluVgKezP5ifs7greHV8Qg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/joes-pizza-new-york-148?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 2131, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.0, "coordinates": {"latitude": 40.7547, "longitude": -73.98696},
+        "transactions": ["delivery", "pickup"], "price": "$", "location": {"address1":
+        "1435 Broadway", "address2": "", "address3": null, "city": "New York", "zip_code":
+        "10018", "country": "US", "state": "NY", "display_address": ["1435 Broadway",
+        "New York, NY 10018"]}, "phone": "+16465594878", "display_phone": "(646) 559-4878",
+        "distance": 5508.746902433722}, {"id": "LF1QAuvpfX7KGQlg2zMg6Q", "alias":
+        "johns-of-bleecker-street-new-york-2", "name": "John''s of Bleecker Street",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Up7lhjRkQpl5PpmBQ0SFJQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/johns-of-bleecker-street-new-york-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 2701, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.0, "coordinates": {"latitude": 40.73158, "longitude": -74.00332},
+        "transactions": ["delivery", "pickup"], "price": "$$", "location": {"address1":
+        "278 Bleecker St", "address2": "", "address3": "", "city": "New York", "zip_code":
+        "10014", "country": "US", "state": "NY", "display_address": ["278 Bleecker
+        St", "New York, NY 10014"]}, "phone": "+12122431680", "display_phone": "(212)
+        243-1680", "distance": 3010.899021476809}, {"id": "hGksyTiHBBdrhbiVjXzWVw",
+        "alias": "scarrs-pizza-new-york", "name": "Scarr''s Pizza", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xonxGJK91P_Ow3iY7olsxA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/scarrs-pizza-new-york?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 888, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.0, "coordinates": {"latitude": 40.7157238, "longitude": -73.99161149999999},
+        "transactions": ["delivery", "pickup"], "price": "$", "location": {"address1":
+        "35 Orchard St", "address2": "", "address3": "", "city": "New York", "zip_code":
+        "10002", "country": "US", "state": "NY", "display_address": ["35 Orchard St",
+        "New York, NY 10002"]}, "phone": "+12123343481", "display_phone": "(212) 334-3481",
+        "distance": 1165.1002553888}, {"id": "6mYQzAdPxa4S1ZtvjST1eg", "alias": "julianas-time-out-market-brooklyn",
+        "name": "Juliana''s - Time Out Market", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/kqM6U4wGOhx1UtZtt2LMgA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/julianas-time-out-market-brooklyn?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 4, "categories": [{"alias": "pizza", "title": "Pizza"}], "rating":
+        4.5, "coordinates": {"latitude": 40.703447, "longitude": -73.99215}, "transactions":
+        [], "location": {"address1": "55 Water St", "address2": "", "address3": null,
+        "city": "Brooklyn", "zip_code": "11201", "country": "US", "state": "NY", "display_address":
+        ["55 Water St", "Brooklyn, NY 11201"]}, "phone": "", "display_phone": "",
+        "distance": 286.33958619941774}, {"id": "-9NO2IDCJMyNGZMAQ1-VQw", "alias":
+        "ny-pizza-suprema-new-york", "name": "NY Pizza Suprema", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/EqbDXneMuQP6pw6GemVdQA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/ny-pizza-suprema-new-york?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 2578, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 40.7502059936523, "longitude":
+        -73.9953231811523}, "transactions": ["delivery", "pickup"], "price": "$",
+        "location": {"address1": "413 8th Ave", "address2": "", "address3": "", "city":
+        "New York", "zip_code": "10001", "country": "US", "state": "NY", "display_address":
+        ["413 8th Ave", "New York, NY 10001"]}, "phone": "+12125948939", "display_phone":
+        "(212) 594-8939", "distance": 4977.847939164096}, {"id": "16ZnHpuaaBt92XWeJHCC5A",
+        "alias": "olio-e-pi\u00f9-new-york-7", "name": "Olio e Pi\u00f9", "image_url":
+        "https://s3-media4.fl.yelpcdn.com/bphoto/CUpPgz_Q4QBHxxxxDJJTTA/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/olio-e-pi%C3%B9-new-york-7?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 5171, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}, {"alias": "cocktailbars", "title":
+        "Cocktail Bars"}], "rating": 4.5, "coordinates": {"latitude": 40.733798036104304,
+        "longitude": -73.99977392649927}, "transactions": ["delivery", "pickup"],
+        "price": "$$", "location": {"address1": "3 Greenwich Ave", "address2": null,
+        "address3": "", "city": "New York", "zip_code": "10014", "country": "US",
+        "state": "NY", "display_address": ["3 Greenwich Ave", "New York, NY 10014"]},
+        "phone": "+12122436546", "display_phone": "(212) 243-6546", "distance": 3186.3804982206075},
+        {"id": "EXQ0x2W9RTydIlHAU9MU1A", "alias": "mimis-pizza-new-york", "name":
+        "Mimi''s Pizza", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/btcWJW_uNq7JEwk2wFMtiQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/mimis-pizza-new-york?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 173, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 40.778638, "longitude": -73.952895},
+        "transactions": ["delivery", "pickup"], "location": {"address1": "217 E 86th
+        St", "address2": null, "address3": "", "city": "New York", "zip_code": "10028",
+        "country": "US", "state": "NY", "display_address": ["217 E 86th St", "New
+        York, NY 10028"]}, "phone": "+16468612518", "display_phone": "(646) 861-2518",
+        "distance": 8852.345604022003}, {"id": "vpkTNjq9dRh9rT3Nh0pe-A", "alias":
+        "nolita-pizza-new-york-2", "name": "Nolita Pizza", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_BKVVoeQoEeYf0DjWcfArg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/nolita-pizza-new-york-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 240, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "gluten_free", "title": "Gluten-Free"}, {"alias": "italian", "title":
+        "Italian"}], "rating": 4.5, "coordinates": {"latitude": 40.7208883, "longitude":
+        -73.9962404}, "transactions": ["delivery", "pickup"], "price": "$", "location":
+        {"address1": "68 Kenmare St", "address2": null, "address3": null, "city":
+        "New York", "zip_code": "10012", "country": "US", "state": "NY", "display_address":
+        ["68 Kenmare St", "New York, NY 10012"]}, "phone": "+16468959131", "display_phone":
+        "(646) 895-9131", "distance": 1725.0543086810944}, {"id": "i_rg-OLXQbpRUN7O3MeCeA",
+        "alias": "piz-zetta-pizzeria-brooklyn", "name": "Piz-zetta Pizzeria", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/rEKWLFnjgEtBr6poVeZznA/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/piz-zetta-pizzeria-brooklyn?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 347, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "pizza", "title": "Pizza"}], "rating": 4.5, "coordinates": {"latitude":
+        40.69116658201196, "longitude": -73.99065911521895}, "transactions": ["delivery",
+        "pickup"], "price": "$", "location": {"address1": "90 Livingston St", "address2":
+        "", "address3": "", "city": "Brooklyn", "zip_code": "11201", "country": "US",
+        "state": "NY", "display_address": ["90 Livingston St", "Brooklyn, NY 11201"]},
+        "phone": "+17184227878", "display_phone": "(718) 422-7878", "distance": 1616.95941062503},
+        {"id": "4h4Tuuc56YPO6lWfZ1bdSQ", "alias": "joes-pizza-new-york-152", "name":
+        "Joe''s Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/sUjegcIlz9bo1s20BqM5KA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/joes-pizza-new-york-152?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 546, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.0, "coordinates": {"latitude": 40.7101297729083, "longitude":
+        -74.0077206864953}, "transactions": ["delivery", "pickup"], "price": "$",
+        "location": {"address1": "124 Fulton St", "address2": "", "address3": null,
+        "city": "New York", "zip_code": "10038", "country": "US", "state": "NY", "display_address":
+        ["124 Fulton St", "New York, NY 10038"]}, "phone": "+12122670860", "display_phone":
+        "(212) 267-0860", "distance": 1245.9428626945232}, {"id": "2xQmBB6w-W6lxiex80fA9A",
+        "alias": "luigis-pizzeria-brooklyn-4", "name": "Luigi''s Pizzeria", "image_url":
+        "https://s3-media4.fl.yelpcdn.com/bphoto/j8wXRUzFnc8XJCFqpt5ZsQ/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/luigis-pizzeria-brooklyn-4?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 288, "categories": [{"alias": "pizza", "title": "Pizza"}],
+        "rating": 4.5, "coordinates": {"latitude": 40.6897, "longitude": -73.965369},
+        "transactions": ["delivery"], "price": "$", "location": {"address1": "326
+        Dekalb Ave", "address2": "", "address3": "", "city": "Brooklyn", "zip_code":
+        "11205", "country": "US", "state": "NY", "display_address": ["326 Dekalb Ave",
+        "Brooklyn, NY 11205"]}, "phone": "+17187832430", "display_phone": "(718) 783-2430",
+        "distance": 3001.8318150390764}, {"id": "oJ_XSPZFpvIt6rvheSQl7A", "alias":
+        "bleecker-street-pizza-new-york", "name": "Bleecker Street Pizza", "image_url":
+        "https://s3-media1.fl.yelpcdn.com/bphoto/uScs5HVlHXaZMKIroDaHSg/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/bleecker-street-pizza-new-york?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 2992, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}], "rating": 4.0, "coordinates": {"latitude":
+        40.7320627016512, "longitude": -74.0036552270137}, "transactions": ["delivery",
+        "pickup"], "price": "$", "location": {"address1": "69 7th Ave S", "address2":
+        null, "address3": "", "city": "New York", "zip_code": "10014", "country":
+        "US", "state": "NY", "display_address": ["69 7th Ave S", "New York, NY 10014"]},
+        "phone": "+12129244466", "display_phone": "(212) 924-4466", "distance": 3073.5742196084057}],
+        "total": 12500, "region": {"center": {"longitude": -73.99429321289062, "latitude":
+        40.70544486444615}}}'
+  recorded_at: Mon, 15 Jan 2024 18:16:17 GMT
+recorded_with: VCR 6.2.0
