@@ -9,9 +9,8 @@ describe LocationService do
       end
 
       it "returns lat and lon", :vcr do
-        city = "Denver"
-        state = "CO" 
-        search = LocationService.new.lat_lon(city, state)
+        location = "denver,co"
+        search = LocationService.new.lat_lon(location)
         expect(search).to be_a Hash
         expect(search).to eq({"lat"=>39.74001, "lng"=>-104.99202})
       end

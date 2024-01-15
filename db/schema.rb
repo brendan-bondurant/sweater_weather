@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_01_15_000348) do
+ActiveRecord::Schema[7.0].define(version: 2024_01_15_010702) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -43,7 +43,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_15_000348) do
     t.index ["forecast_id"], name: "index_daily_weathers_on_forecast_id"
   end
 
-  create_table "forecasts", force: :cascade do |t|
+  create_table "forecast", force: :cascade do |t|
     t.string "forecast_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -60,7 +60,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_15_000348) do
     t.index ["forecast_id"], name: "index_hourly_weathers_on_forecast_id"
   end
 
-  add_foreign_key "current_weather", "forecasts"
-  add_foreign_key "daily_weathers", "forecasts"
-  add_foreign_key "hourly_weathers", "forecasts"
+  add_foreign_key "current_weather", "forecast"
+  add_foreign_key "daily_weathers", "forecast"
+  add_foreign_key "hourly_weathers", "forecast"
 end
