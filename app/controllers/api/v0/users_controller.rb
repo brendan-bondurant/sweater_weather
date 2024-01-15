@@ -6,7 +6,6 @@ class Api::V0::UsersController < ApplicationController
       
       render json: user_response, status: :created
     else
-      # require 'pry'; binding.pry
       render json: { errors: @new_user.errors.full_messages }, status: :unprocessable_entity
 
     end
@@ -19,7 +18,6 @@ class Api::V0::UsersController < ApplicationController
   end
 
   def user_response
-    
     {
       data: {
         type: "users",
@@ -30,5 +28,13 @@ class Api::V0::UsersController < ApplicationController
         }
       }
     }
+  end
+
+  def render_error_response
+    # if @new_user.errors.include?(:email) && @new_user.errors[:email].include?('has already been taken')
+    #   render json: { errors: ['Email is already taken'] }, status: :unprocessable_entity
+    # else
+      render json: { errors: @new_user.errors.full_messages }, status: :unprocessable_entity
+    # end
   end
 end

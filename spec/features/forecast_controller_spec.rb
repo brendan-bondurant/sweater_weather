@@ -6,7 +6,6 @@ RSpec.describe Api::V0::ForecastController, type: :controller do
       location = 'New York'
       WeatherFacade.new(location)
       get :index, params: { location: location }
-      
       expect(response).to have_http_status(:ok)
       expect(response.content_type.include?('application/json')).to eq(true)
       expect(JSON.parse(response.body).keys).to eq(["id", "type", "attributes"])
