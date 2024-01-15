@@ -12,9 +12,11 @@ describe YelpService do
         location = "denver,co"
         type = "bbq"
         search = YelpService.new.type_of_food(type, location)
-        require 'pry'; binding.pry
+        # require 'pry'; binding.pry
         expect(search).to be_a Hash
-        # expect(search).to eq({"lat"=>39.74001, "lng"=>-104.99202})
+        expect(search.to_s.include?("bbq")).to eq(true)
+        expect(search.to_s.include?("denver")).to eq(true)
+        expect(search.to_s.include?("co")).to eq(true)
       end
     end
   end
