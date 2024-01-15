@@ -4,7 +4,9 @@ Rails.application.routes.draw do
     namespace :v0 do
       resources :forecast, only: [:index]
       resources :users
-
+    end
+    namespace :v1 do
+      resources :munchies
     end
   end
   # Defines the root path route ("/")

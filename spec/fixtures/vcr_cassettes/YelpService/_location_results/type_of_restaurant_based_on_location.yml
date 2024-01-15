@@ -1,0 +1,121 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/?location=denver,co&term=bbq
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer XRH4RCvR8zmt8Q9_rxV9PUQxaCTzav4-TEJeXByMubmiK9m_gE0uO8-KOm9jDKo3LL7sEci866DZ2c2E6DIiBJT0Bj1K2mfVfji-JgzdWBjGqzY3zBH9HxDK57ycZXYx
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '79'
+      Content-Type:
+      - application/json
+      Server:
+      - envoy
+      X-B3-Sampled:
+      - '0'
+      X-Routing-Service:
+      - routing-main--useast1-74f644dc4b-kgtk6; site=public_api_v3
+      X-Zipkin-Id:
+      - 3bfa22ae936435a6
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-172-176-useast1bprod
+      X-Extlb:
+      - 10-65-172-176-useast1bprod
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 15 Jan 2024 16:28:34 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-chi-klot8100112-CHI
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Alt-Svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"error": {"code": "NOT_FOUND", "description": "Resource could not
+        be found."}}'
+  recorded_at: Mon, 15 Jan 2024 16:28:34 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/?location=denver,co&term=bbq
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer XRH4RCvR8zmt8Q9_rxV9PUQxaCTzav4-TEJeXByMubmiK9m_gE0uO8-KOm9jDKo3LL7sEci866DZ2c2E6DIiBJT0Bj1K2mfVfji-JgzdWBjGqzY3zBH9HxDK57ycZXYx
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '79'
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      Server:
+      - envoy
+      X-Routing-Service:
+      - routing-main--useast1-74f644dc4b-gpbwk; site=public_api_v3
+      X-Zipkin-Id:
+      - 522d7c73cf347057
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-79-132-useast1aprod
+      X-Extlb:
+      - 10-65-79-132-useast1aprod
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 15 Jan 2024 16:29:15 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-chi-klot8100025-CHI
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Alt-Svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"error": {"code": "NOT_FOUND", "description": "Resource could not
+        be found."}}'
+  recorded_at: Mon, 15 Jan 2024 16:29:15 GMT
+recorded_with: VCR 6.2.0
