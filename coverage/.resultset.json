@@ -177,69 +177,6 @@
           null
         ]
       },
-      "/Users/brendanbondurant/3mod/projects/sweater_weather/spec/factories/current_weather.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/brendanbondurant/3mod/projects/sweater_weather/spec/factories/daily_weather.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/brendanbondurant/3mod/projects/sweater_weather/spec/factories/forecast.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/brendanbondurant/3mod/projects/sweater_weather/spec/factories/hourly_weather.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/brendanbondurant/3mod/projects/sweater_weather/config/routes.rb": {
         "lines": [
           1,
@@ -336,7 +273,9 @@
           null,
           1,
           1,
-          2,
+          1,
+          1,
+          null,
           null,
           null
         ]
@@ -608,6 +547,6 @@
         ]
       }
     },
-    "timestamp": 1705278436
+    "timestamp": 1705279435
   }
 }
