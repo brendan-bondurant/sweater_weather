@@ -10,7 +10,6 @@ class YelpService
       req.params['term'] = "#{type}"
       req.params['location'] = "#{location}"
     end
-    require 'pry'; binding.pry
     data = JSON.parse(response.body) if response.success?
   end
 end
