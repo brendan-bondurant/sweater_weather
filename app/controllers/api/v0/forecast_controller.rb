@@ -5,9 +5,6 @@ class Api::V0::ForecastController < ApplicationController
 
   end
 
-  def show
-    # require 'pry'; binding.pry
-  end
 end
 
 private
