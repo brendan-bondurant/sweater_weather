@@ -3,10 +3,10 @@ class Api::V0::UsersController < ApplicationController
   def create
     @new_user = User.new(user_params)
     if @new_user.save
-      require 'pry'; binding.pry
+      
       render json: user_response, status: :created
     else
-      require 'pry'; binding.pry
+      
       render json: { errors: @new_user.errors.full_messages }, status: :unprocessable_entity
     end
   end
@@ -18,7 +18,7 @@ class Api::V0::UsersController < ApplicationController
   end
 
   def user_response
-    require 'pry'; binding.pry
+    
     {
       data: {
         type: "users",
