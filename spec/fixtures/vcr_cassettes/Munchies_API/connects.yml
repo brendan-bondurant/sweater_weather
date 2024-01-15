@@ -1,0 +1,544 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/geocoding/v1/address?key=n8Jsf6Hy3JjrrUjZ3YoGxWQOvQUu1YBz&location=Kansas%20City
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 15 Jan 2024 18:04:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1306'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-2628000:
+      - '1000000000'
+      X-Ratelimit-Remaining-2628000:
+      - '999999816'
+      Ratelimit-Limit:
+      - '1000000000'
+      Ratelimit-Remaining:
+      - '999999816'
+      Ratelimit-Reset:
+      - '230132'
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - 8658a570-b3d0-11ee-a1f9-3940980a923d
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"51a-f/L5B9AjZRU8SURz8bUwbzb0P7o"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJLYW5zYXMgQ2l0eSJ9LCJsb2NhdGlvbnMiOlt7InN0cmVldCI6IiIsImFkbWluQXJlYTYiOiIiLCJhZG1pbkFyZWE2VHlwZSI6Ik5laWdoYm9yaG9vZCIsImFkbWluQXJlYTUiOiJLYW5zYXMgQ2l0eSIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJKYWNrc29uIiwiYWRtaW5BcmVhNFR5cGUiOiJDb3VudHkiLCJhZG1pbkFyZWEzIjoiTU8iLCJhZG1pbkFyZWEzVHlwZSI6IlN0YXRlIiwiYWRtaW5BcmVhMSI6IlVTIiwiYWRtaW5BcmVhMVR5cGUiOiJDb3VudHJ5IiwicG9zdGFsQ29kZSI6IiIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IkE1WEFYIiwiZ2VvY29kZVF1YWxpdHkiOiJDSVRZIiwiZHJhZ1BvaW50IjpmYWxzZSwic2lkZU9mU3RyZWV0IjoiTiIsImxpbmtJZCI6IjAiLCJ1bmtub3duSW5wdXQiOiIiLCJ0eXBlIjoicyIsImxhdExuZyI6eyJsYXQiOjM5LjEwMzQ0LCJsbmciOi05NC41ODMxMX0sImRpc3BsYXlMYXRMbmciOnsibGF0IjozOS4xMDM0NCwibG5nIjotOTQuNTgzMTF9LCJtYXBVcmwiOiIifSx7InN0cmVldCI6IiIsImFkbWluQXJlYTYiOiIiLCJhZG1pbkFyZWE2VHlwZSI6Ik5laWdoYm9yaG9vZCIsImFkbWluQXJlYTUiOiJLYW5zYXMgQ2l0eSIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJXeWFuZG90dGUiLCJhZG1pbkFyZWE0VHlwZSI6IkNvdW50eSIsImFkbWluQXJlYTMiOiJLUyIsImFkbWluQXJlYTNUeXBlIjoiU3RhdGUiLCJhZG1pbkFyZWExIjoiVVMiLCJhZG1pbkFyZWExVHlwZSI6IkNvdW50cnkiLCJwb3N0YWxDb2RlIjoiIiwiZ2VvY29kZVF1YWxpdHlDb2RlIjoiQTVYQVgiLCJnZW9jb2RlUXVhbGl0eSI6IkNJVFkiLCJkcmFnUG9pbnQiOmZhbHNlLCJzaWRlT2ZTdHJlZXQiOiJOIiwibGlua0lkIjoiMCIsInVua25vd25JbnB1dCI6IiIsInR5cGUiOiJzIiwibGF0TG5nIjp7ImxhdCI6MzkuMTEzNTIsImxuZyI6LTk0LjYyNjgyfSwiZGlzcGxheUxhdExuZyI6eyJsYXQiOjM5LjExMzUyLCJsbmciOi05NC42MjY4Mn0sIm1hcFVybCI6IiJ9XX1dfQ==
+  recorded_at: Mon, 15 Jan 2024 18:04:28 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=6&key=94481a89494042b1922163808241301&q=39.10344,-94.58311
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 15 Jan 2024 18:04:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999957'
+      X-Varnish:
+      - '213353843'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 01/15/2024 18:04:28
+      Cdn-Edgestorageid:
+      - '1029'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 6eb3a40a88f811b9865adcb5072eae6b
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Kansas City","region":"Missouri","country":"United
+        States of America","lat":39.1,"lon":-94.58,"tz_id":"America/Chicago","localtime_epoch":1705341829,"localtime":"2024-01-15
+        12:03"},"current":{"last_updated":"2024-01-15 12:00","temp_f":-0.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"},"humidity":62,"feelslike_f":-15.1,"vis_miles":9.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2024-01-15","day":{"maxtemp_f":5.3,"mintemp_f":-11.4,"condition":{"text":"Patchy
+        moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/day/329.png"}},"astro":{"sunrise":"07:36
+        AM","sunset":"05:20 PM"},"hour":[{"time":"2024-01-15 00:00","temp_f":-9.8,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-15
+        01:00","temp_f":-10.4,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-15
+        02:00","temp_f":-10.9,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-15
+        03:00","temp_f":-11.2,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-15
+        04:00","temp_f":-11.2,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-15
+        05:00","temp_f":-11.2,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-15
+        06:00","temp_f":-10.0,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-15
+        07:00","temp_f":-8.8,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-15
+        08:00","temp_f":-7.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-15
+        09:00","temp_f":-6.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-15
+        10:00","temp_f":-4.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-15
+        11:00","temp_f":-2.0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-15
+        12:00","temp_f":-0.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-15
+        13:00","temp_f":1.6,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/day/326.png","code":1213}},{"time":"2024-01-15
+        14:00","temp_f":2.6,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/day/332.png","code":1219}},{"time":"2024-01-15
+        15:00","temp_f":3.2,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-15
+        16:00","temp_f":3.8,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/day/332.png","code":1219}},{"time":"2024-01-15
+        17:00","temp_f":4.2,"condition":{"text":"Heavy snow","icon":"//cdn.weatherapi.com/weather/64x64/day/338.png","code":1225}},{"time":"2024-01-15
+        18:00","temp_f":4.3,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-15
+        19:00","temp_f":4.1,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-15
+        20:00","temp_f":3.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-15
+        21:00","temp_f":2.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-15
+        22:00","temp_f":0.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-15
+        23:00","temp_f":-1.3,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}}]},{"date":"2024-01-16","day":{"maxtemp_f":12.9,"mintemp_f":-7.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},"astro":{"sunrise":"07:36
+        AM","sunset":"05:21 PM"},"hour":[{"time":"2024-01-16 00:00","temp_f":-3.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        01:00","temp_f":-4.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        02:00","temp_f":-5.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        03:00","temp_f":-7.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        04:00","temp_f":-7.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        05:00","temp_f":-8.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        06:00","temp_f":-9.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        07:00","temp_f":-9.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        08:00","temp_f":-9.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        09:00","temp_f":-6.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        10:00","temp_f":-3.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        11:00","temp_f":0.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        12:00","temp_f":3.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        13:00","temp_f":6.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        14:00","temp_f":9.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        15:00","temp_f":10.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        16:00","temp_f":11.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        17:00","temp_f":10.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-16
+        18:00","temp_f":7.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        19:00","temp_f":6.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        20:00","temp_f":6.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        21:00","temp_f":7.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        22:00","temp_f":8.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-16
+        23:00","temp_f":9.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}}]},{"date":"2024-01-17","day":{"maxtemp_f":29.0,"mintemp_f":10.8,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},"astro":{"sunrise":"07:36
+        AM","sunset":"05:22 PM"},"hour":[{"time":"2024-01-17 00:00","temp_f":10.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        01:00","temp_f":11.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        02:00","temp_f":11.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        03:00","temp_f":12.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        04:00","temp_f":12.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        05:00","temp_f":12.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        06:00","temp_f":12.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        07:00","temp_f":11.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-17
+        08:00","temp_f":11.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        09:00","temp_f":13.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        10:00","temp_f":16.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        11:00","temp_f":19.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        12:00","temp_f":22.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        13:00","temp_f":24.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        14:00","temp_f":26.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-17
+        15:00","temp_f":27.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-17
+        16:00","temp_f":27.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-17
+        17:00","temp_f":26.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-17
+        18:00","temp_f":24.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-17
+        19:00","temp_f":24.2,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-17
+        20:00","temp_f":23.9,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-17
+        21:00","temp_f":23.3,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-17
+        22:00","temp_f":22.8,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-17
+        23:00","temp_f":22.7,"condition":{"text":"Moderate snow","icon":"//cdn.weatherapi.com/weather/64x64/night/332.png","code":1219}}]},{"date":"2024-01-18","day":{"maxtemp_f":17.4,"mintemp_f":6.3,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png"}},"astro":{"sunrise":"07:35
+        AM","sunset":"05:23 PM"},"hour":[{"time":"2024-01-18 00:00","temp_f":22.0,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-18
+        01:00","temp_f":21.3,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-18
+        02:00","temp_f":20.3,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-18
+        03:00","temp_f":19.0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}},{"time":"2024-01-18
+        04:00","temp_f":18.0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}},{"time":"2024-01-18
+        05:00","temp_f":17.3,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-18
+        06:00","temp_f":16.8,"condition":{"text":"Light snow","icon":"//cdn.weatherapi.com/weather/64x64/night/326.png","code":1213}},{"time":"2024-01-18
+        07:00","temp_f":16.2,"condition":{"text":"Light freezing rain","icon":"//cdn.weatherapi.com/weather/64x64/night/311.png","code":1198}},{"time":"2024-01-18
+        08:00","temp_f":15.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        09:00","temp_f":14.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        10:00","temp_f":14.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        11:00","temp_f":15.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        12:00","temp_f":15.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-18
+        13:00","temp_f":15.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-18
+        14:00","temp_f":15.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-18
+        15:00","temp_f":15.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-18
+        16:00","temp_f":15.3,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-18
+        17:00","temp_f":14.3,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-18
+        18:00","temp_f":13.0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-18
+        19:00","temp_f":11.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-18
+        20:00","temp_f":9.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-18
+        21:00","temp_f":8.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-18
+        22:00","temp_f":7.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-18
+        23:00","temp_f":6.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}}]},{"date":"2024-01-19","day":{"maxtemp_f":11.1,"mintemp_f":-3.9,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},"astro":{"sunrise":"07:35
+        AM","sunset":"05:24 PM"},"hour":[{"time":"2024-01-19 00:00","temp_f":5.4,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-19
+        01:00","temp_f":3.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006}},{"time":"2024-01-19
+        02:00","temp_f":2.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-19
+        03:00","temp_f":0.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-19
+        04:00","temp_f":-0.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-19
+        05:00","temp_f":-1.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-19
+        06:00","temp_f":-2.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-19
+        07:00","temp_f":-3.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-19
+        08:00","temp_f":-4.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-19
+        09:00","temp_f":-2.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003}},{"time":"2024-01-19
+        10:00","temp_f":-0.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        11:00","temp_f":2.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-19
+        12:00","temp_f":5.1,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-19
+        13:00","temp_f":7.1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-19
+        14:00","temp_f":8.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-19
+        15:00","temp_f":9.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-19
+        16:00","temp_f":9.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-19
+        17:00","temp_f":9.1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009}},{"time":"2024-01-19
+        18:00","temp_f":6.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-19
+        19:00","temp_f":4.6,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009}},{"time":"2024-01-19
+        20:00","temp_f":2.8,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-19
+        21:00","temp_f":1.4,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-19
+        22:00","temp_f":-0.3,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030}},{"time":"2024-01-19
+        23:00","temp_f":-1.7,"condition":{"text":"Freezing fog","icon":"//cdn.weatherapi.com/weather/64x64/night/260.png","code":1147}}]},{"date":"2024-01-20","day":{"maxtemp_f":21.7,"mintemp_f":0.7,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},"astro":{"sunrise":"07:34
+        AM","sunset":"05:25 PM"},"hour":[{"time":"2024-01-20 00:00","temp_f":-2.6,"condition":{"text":"Freezing
+        fog","icon":"//cdn.weatherapi.com/weather/64x64/night/260.png","code":1147}},{"time":"2024-01-20
+        01:00","temp_f":-3.1,"condition":{"text":"Freezing fog","icon":"//cdn.weatherapi.com/weather/64x64/night/260.png","code":1147}},{"time":"2024-01-20
+        02:00","temp_f":-3.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-20
+        03:00","temp_f":-3.8,"condition":{"text":"Freezing fog","icon":"//cdn.weatherapi.com/weather/64x64/night/260.png","code":1147}},{"time":"2024-01-20
+        04:00","temp_f":-4.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-20
+        05:00","temp_f":-4.3,"condition":{"text":"Freezing fog","icon":"//cdn.weatherapi.com/weather/64x64/night/260.png","code":1147}},{"time":"2024-01-20
+        06:00","temp_f":-4.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003}},{"time":"2024-01-20
+        07:00","temp_f":-3.5,"condition":{"text":"Freezing fog","icon":"//cdn.weatherapi.com/weather/64x64/night/260.png","code":1147}},{"time":"2024-01-20
+        08:00","temp_f":-1.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-20
+        09:00","temp_f":0.3,"condition":{"text":"Freezing fog","icon":"//cdn.weatherapi.com/weather/64x64/day/260.png","code":1147}},{"time":"2024-01-20
+        10:00","temp_f":3.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-20
+        11:00","temp_f":6.4,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-20
+        12:00","temp_f":9.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-20
+        13:00","temp_f":12.4,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-20
+        14:00","temp_f":14.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-20
+        15:00","temp_f":16.5,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006}},{"time":"2024-01-20
+        16:00","temp_f":16.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-20
+        17:00","temp_f":15.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000}},{"time":"2024-01-20
+        18:00","temp_f":14.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-20
+        19:00","temp_f":14.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-20
+        20:00","temp_f":14.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-20
+        21:00","temp_f":14.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-20
+        22:00","temp_f":14.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}},{"time":"2024-01-20
+        23:00","temp_f":15.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000}}]}]}}'
+  recorded_at: Mon, 15 Jan 2024 18:04:28 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?location=Kansas%20City&term=BBQ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer XRH4RCvR8zmt8Q9_rxV9PUQxaCTzav4-TEJeXByMubmiK9m_gE0uO8-KOm9jDKo3LL7sEci866DZ2c2E6DIiBJT0Bj1K2mfVfji-JgzdWBjGqzY3zBH9HxDK57ycZXYx
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Dailylimit:
+      - '500.0'
+      Ratelimit-Remaining:
+      - '468.0'
+      Ratelimit-Resettime:
+      - '2024-01-16T00:00:00+00:00'
+      X-Routing-Service:
+      - routing-main--useast1-74f644dc4b-l6jpl; site=public_api_v3
+      X-Zipkin-Id:
+      - '0168d59206d0f362'
+      X-B3-Sampled:
+      - '0'
+      Server:
+      - envoy
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-79-132-useast1aprod
+      X-Extlb:
+      - 10-65-79-132-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 15 Jan 2024 18:04:29 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-chi-klot8100107-CHI
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Alt-Svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "QhzJXO6E_oLAx1Wz1Z_T2g", "alias": "joes-kansas-city-bar-b-que-kansas-city-3",
+        "name": "Joe''s Kansas City Bar-B-Que", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/nz_29PhHdd1PTApdLzdwwQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/joes-kansas-city-bar-b-que-kansas-city-3?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 4720, "categories": [{"alias": "bbq", "title": "Barbeque"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.044461224899, "longitude": -94.620753657734},
+        "transactions": ["delivery"], "price": "$$", "location": {"address1": "3002
+        W 47th Ave", "address2": "", "address3": "", "city": "Kansas City", "zip_code":
+        "66103", "country": "US", "state": "KS", "display_address": ["3002 W 47th
+        Ave", "Kansas City, KS 66103"]}, "phone": "+19137223366", "display_phone":
+        "(913) 722-3366", "distance": 11035.806162114568}, {"id": "snF9XeUAtv-Vp9coGa2rDQ",
+        "alias": "slaps-bbq-kansas-city-2", "name": "Slap''s BBQ", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/PgZ-7JyZEneGPi4-YS-urA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/slaps-bbq-kansas-city-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 1275, "categories": [{"alias": "bbq", "title": "Barbeque"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.10248, "longitude": -94.62443},
+        "transactions": ["delivery", "pickup"], "price": "$$", "location": {"address1":
+        "553 Central Ave", "address2": "", "address3": "", "city": "Kansas City",
+        "zip_code": "66101", "country": "US", "state": "KS", "display_address": ["553
+        Central Ave", "Kansas City, KS 66101"]}, "phone": "+19132133736", "display_phone":
+        "(913) 213-3736", "distance": 9236.518185072873}, {"id": "34I8ATMlKT6ZT3G69qwu0g",
+        "alias": "q39-midtown-kansas-city-3", "name": "Q39 Midtown", "image_url":
+        "https://s3-media4.fl.yelpcdn.com/bphoto/Vcl83V3ZShHFuU8Fl_h8wA/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/q39-midtown-kansas-city-3?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 5757, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "tradamerican", "title": "American"}], "rating": 4.5, "coordinates":
+        {"latitude": 39.0574096, "longitude": -94.59813648}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "1000 W 39th St", "address2": "",
+        "address3": "", "city": "Kansas City", "zip_code": "64111", "country": "US",
+        "state": "MO", "display_address": ["1000 W 39th St", "Kansas City, MO 64111"]},
+        "phone": "+18162553753", "display_phone": "(816) 255-3753", "distance": 12195.132251657033},
+        {"id": "CBOagxuEM98LgOZIkSjoVA", "alias": "jack-stack-barbecue-freight-house-kansas-city-2",
+        "name": "Jack Stack Barbecue - Freight House", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/OlpPiI1MMVqSKl6JBaL16g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/jack-stack-barbecue-freight-house-kansas-city-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 2920, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "catering", "title": "Caterers"}], "rating": 4.5, "coordinates":
+        {"latitude": 39.087412880131446, "longitude": -94.58529543239536}, "transactions":
+        [], "price": "$$", "location": {"address1": "101 W 22nd St", "address2": "Ste
+        300", "address3": "", "city": "Kansas City", "zip_code": "64108", "country":
+        "US", "state": "MO", "display_address": ["101 W 22nd St", "Ste 300", "Kansas
+        City, MO 64108"]}, "phone": "+18164727427", "display_phone": "(816) 472-7427",
+        "distance": 12599.89933396736}, {"id": "rajr0Zl8xFLO6Gzg0r10bA", "alias":
+        "q39-south-overland-park-4", "name": "Q39 South", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/qFVGEMdp6XHVVqP32Mw9lw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/q39-south-overland-park-4?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 1934, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "bars", "title": "Bars"}, {"alias": "tradamerican", "title": "American"}],
+        "rating": 4.5, "coordinates": {"latitude": 38.928767, "longitude": -94.68566},
+        "transactions": ["delivery"], "price": "$$", "location": {"address1": "11051
+        Antioch Rd", "address2": "", "address3": null, "city": "Overland Park", "zip_code":
+        "66210", "country": "US", "state": "KS", "display_address": ["11051 Antioch
+        Rd", "Overland Park, KS 66210"]}, "phone": "+19139514500", "display_phone":
+        "(913) 951-4500", "distance": 18859.16233399537}, {"id": "5HAqho1lgwZZOASEqG__oA",
+        "alias": "joes-kansas-city-bar-b-que-olathe", "name": "Joe''s Kansas City
+        Bar-B-Que", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/GirU49r5O7-BCUZI1omg9g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/joes-kansas-city-bar-b-que-olathe?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 1243, "categories": [{"alias": "bbq", "title": "Barbeque"}],
+        "rating": 4.5, "coordinates": {"latitude": 38.9110858664586, "longitude":
+        -94.7688497554663}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "11950 S Strang Line Rd", "address2": null, "address3": "", "city":
+        "Olathe", "zip_code": "66062", "country": "US", "state": "KS", "display_address":
+        ["11950 S Strang Line Rd", "Olathe, KS 66062"]}, "phone": "+19137826858",
+        "display_phone": "(913) 782-6858", "distance": 20679.158764413878}, {"id":
+        "1xUh0RFSTs685FARg84aqA", "alias": "roscoes-barbeque-edwardsville", "name":
+        "Roscoe''s Barbeque", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/TY4SfdEhfd6oR-YFRSqt5g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/roscoes-barbeque-edwardsville?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 161, "categories": [{"alias": "bbq", "title": "Barbeque"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.060589, "longitude": -94.805573},
+        "transactions": ["delivery"], "price": "$$", "location": {"address1": "9711
+        Kaw Dr", "address2": "", "address3": "", "city": "Edwardsville", "zip_code":
+        "66111", "country": "US", "state": "KS", "display_address": ["9711 Kaw Dr",
+        "Edwardsville, KS 66111"]}, "phone": "+19134224600", "display_phone": "(913)
+        422-4600", "distance": 7472.097365918115}, {"id": "BjV2g5KJLxfgN-WpoSBjBA",
+        "alias": "haywards-pit-bar-b-que-shawnee", "name": "Hayward''s Pit Bar-B-Que",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/XKSIIHYD9WficXGp1N1cAg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/haywards-pit-bar-b-que-shawnee?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 273, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "sandwiches", "title": "Sandwiches"}, {"alias": "sportsbars", "title":
+        "Sports Bars"}], "rating": 4.5, "coordinates": {"latitude": 38.99252, "longitude":
+        -94.71186}, "transactions": ["delivery", "pickup"], "price": "$$", "location":
+        {"address1": "10901 W 75th St", "address2": "", "address3": "", "city": "Shawnee",
+        "zip_code": "66214", "country": "US", "state": "KS", "display_address": ["10901
+        W 75th St", "Shawnee, KS 66214"]}, "phone": "+19134518080", "display_phone":
+        "(913) 451-8080", "distance": 11485.010662001916}, {"id": "pJ4-rFpGa_yYhx0tcQivIQ",
+        "alias": "woodyard-bar-b-que-kansas-city-3", "name": "Woodyard Bar-B-Que",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/lrbOYNA-KW29Vqwzw1LfOg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/woodyard-bar-b-que-kansas-city-3?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 529, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "sandwiches", "title": "Sandwiches"}, {"alias": "tradamerican",
+        "title": "American"}], "rating": 4.0, "coordinates": {"latitude": 39.04521,
+        "longitude": -94.66237}, "transactions": ["delivery", "pickup"], "price":
+        "$$", "location": {"address1": "3001 Merriam Ln", "address2": "", "address3":
+        "", "city": "Kansas City", "zip_code": "66106", "country": "US", "state":
+        "KS", "display_address": ["3001 Merriam Ln", "Kansas City, KS 66106"]}, "phone":
+        "+19133628000", "display_phone": "(913) 362-8000", "distance": 8050.038832541706},
+        {"id": "2WoigKND2DiwaO1BvcGonw", "alias": "jones-bar-b-q-kansas-city", "name":
+        "Jones Bar-B-Q", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/v6PCpV9dyeP4j_Aq2c6CXQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/jones-bar-b-q-kansas-city?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 165, "categories": [{"alias": "bbq", "title": "Barbeque"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.088899571131705, "longitude":
+        -94.7340688}, "transactions": ["delivery"], "price": "$$", "location": {"address1":
+        "6706 Kaw Dr", "address2": "", "address3": "", "city": "Kansas City", "zip_code":
+        "66111", "country": "US", "state": "KS", "display_address": ["6706 Kaw Dr",
+        "Kansas City, KS 66111"]}, "phone": "+19137885005", "display_phone": "(913)
+        788-5005", "distance": 699.2801312088848}, {"id": "0b5EuMXDeshfdZ8KJy9smQ",
+        "alias": "wolfepack-bbq-kansas-city", "name": "Wolfepack BBQ", "image_url":
+        "https://s3-media1.fl.yelpcdn.com/bphoto/OvEsV5mMPNVysCvx87aTHw/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/wolfepack-bbq-kansas-city?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 54, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "salad", "title": "Salad"}, {"alias": "sandwiches", "title": "Sandwiches"}],
+        "rating": 5.0, "coordinates": {"latitude": 39.11051, "longitude": -94.57293},
+        "transactions": ["delivery", "pickup"], "location": {"address1": "910 E 5th
+        St", "address2": null, "address3": "", "city": "Kansas City", "zip_code":
+        "64106", "country": "US", "state": "MO", "display_address": ["910 E 5th St",
+        "Kansas City, MO 64106"]}, "phone": "+18162680770", "display_phone": "(816)
+        268-0770", "distance": 13749.957486188163}, {"id": "9sgkAxh_8W0Z3iAqJJtbNQ",
+        "alias": "scotts-kitchen-and-catering-at-hangar-29-kansas-city-4", "name":
+        "Scott''s Kitchen and Catering at Hangar 29", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qqtZTrL91fESV-EHr14ydQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/scotts-kitchen-and-catering-at-hangar-29-kansas-city-4?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 657, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"}], "rating": 4.5,
+        "coordinates": {"latitude": 39.310096, "longitude": -94.682573}, "transactions":
+        [], "price": "$$", "location": {"address1": "11920 N Ambassador Dr", "address2":
+        null, "address3": "", "city": "Kansas City", "zip_code": "64153", "country":
+        "US", "state": "MO", "display_address": ["11920 N Ambassador Dr", "Kansas
+        City, MO 64153"]}, "phone": "+18162700505", "display_phone": "(816) 270-0505",
+        "distance": 24309.770669957223}, {"id": "pbIVaIJ_jDPpvtJZ0zYM0w", "alias":
+        "blind-box-bbq-kansas-city-2", "name": "Blind Box BBQ", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/M4JsajHT3QN-Q_JeC8seVw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/blind-box-bbq-kansas-city-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 69, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "coffee", "title": "Coffee & Tea"}, {"alias": "tradamerican", "title":
+        "American"}], "rating": 4.0, "coordinates": {"latitude": 39.124963, "longitude":
+        -94.820243}, "transactions": ["delivery"], "price": "$$", "location": {"address1":
+        "1601 Village West Pkwy", "address2": "", "address3": "Nebraska Furniture
+        Mart", "city": "Kansas City", "zip_code": "66111", "country": "US", "state":
+        "KS", "display_address": ["1601 Village West Pkwy", "Nebraska Furniture Mart",
+        "Kansas City, KS 66111"]}, "phone": "+19132684227", "display_phone": "(913)
+        268-4227", "distance": 8327.628226168907}, {"id": "gFT74TLK0ot-Fas5OXfyqA",
+        "alias": "smoketown-bbq-overland-park-2", "name": "Smoketown BBQ", "image_url":
+        "https://s3-media3.fl.yelpcdn.com/bphoto/gww0f1CvyDfYlTyvMSt8rA/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/smoketown-bbq-overland-park-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 76, "categories": [{"alias": "bbq", "title": "Barbeque"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.015252, "longitude": -94.674628},
+        "transactions": ["delivery", "pickup"], "location": {"address1": "7702 Shawnee
+        Mission Pkwy", "address2": null, "address3": "", "city": "Overland Park",
+        "zip_code": "66202", "country": "US", "state": "KS", "display_address": ["7702
+        Shawnee Mission Pkwy", "Overland Park, KS 66202"]}, "phone": "+19135441012",
+        "display_phone": "(913) 544-1012", "distance": 10090.982891274365}, {"id":
+        "SLswM5Tn1sryrdz3he7PWg", "alias": "joes-kansas-city-bar-b-que-leawood", "name":
+        "Joe''s Kansas City Bar-B-Que", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Tl02yKNohkh-a6i-AwZh9w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/joes-kansas-city-bar-b-que-leawood?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 1010, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "salad", "title": "Salad"}, {"alias": "sandwiches", "title": "Sandwiches"}],
+        "rating": 4.5, "coordinates": {"latitude": 38.91518, "longitude": -94.63922},
+        "transactions": ["delivery"], "price": "$$", "location": {"address1": "11723
+        Roe Ave", "address2": "", "address3": "", "city": "Leawood", "zip_code": "66211",
+        "country": "US", "state": "KS", "display_address": ["11723 Roe Ave", "Leawood,
+        KS 66211"]}, "phone": "+19133385151", "display_phone": "(913) 338-5151", "distance":
+        21463.045142823685}, {"id": "YvDRw53rRmEJsdalqHv2jA", "alias": "jack-stack-barbecue-lenexa-lenexa-2",
+        "name": "Jack Stack Barbecue - Lenexa", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/K0q72qVLT0LvfjHmiHPi8g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/jack-stack-barbecue-lenexa-lenexa-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 144, "categories": [{"alias": "bbq", "title": "Barbeque"}],
+        "rating": 4.5, "coordinates": {"latitude": 38.96967374127315, "longitude":
+        -94.777785928836}, "transactions": [], "price": "$$", "location": {"address1":
+        "8721 Ryckert St", "address2": null, "address3": "", "city": "Lenexa", "zip_code":
+        "66219", "country": "US", "state": "KS", "display_address": ["8721 Ryckert
+        St", "Lenexa, KS 66219"]}, "phone": "+19133824227", "display_phone": "(913)
+        382-4227", "distance": 14479.703622189192}, {"id": "ieI6wjZZXti4x5bZ3DEyXg",
+        "alias": "fiorella-s-jack-stack-barbecue-overland-park-overland-park", "name":
+        "Fiorella\u2019s Jack Stack Barbecue - Overland Park", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/eYlrIevE0Q3nPljB74TLRw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/fiorella-s-jack-stack-barbecue-overland-park-overland-park?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 1375, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "catering", "title": "Caterers"}], "rating": 4.5, "coordinates":
+        {"latitude": 38.95591, "longitude": -94.66847}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "9520 Metcalf Ave", "address2": "",
+        "address3": "", "city": "Overland Park", "zip_code": "66212", "country": "US",
+        "state": "KS", "display_address": ["9520 Metcalf Ave", "Overland Park, KS
+        66212"]}, "phone": "+19133857427", "display_phone": "(913) 385-7427", "distance":
+        16368.414608050212}, {"id": "JxOrcII1jrtmZ-aNyKz69g", "alias": "meat-mitch-leawood",
+        "name": "Meat Mitch", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/chfFJyRxnF2A3m38V3fjTQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/meat-mitch-leawood?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 179, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "meats", "title": "Meat Shops"}, {"alias": "beerbar", "title": "Beer
+        Bar"}], "rating": 4.5, "coordinates": {"latitude": 38.9577178, "longitude":
+        -94.6275558}, "transactions": ["delivery", "pickup"], "price": "$$", "location":
+        {"address1": "3620 W 95th St", "address2": null, "address3": "", "city": "Leawood",
+        "zip_code": "66206", "country": "US", "state": "KS", "display_address": ["3620
+        W 95th St", "Leawood, KS 66206"]}, "phone": "+19133636328", "display_phone":
+        "(913) 363-6328", "distance": 17660.33827353368}, {"id": "-5w9g5lzTVNC5mCCjgLZfg",
+        "alias": "buck-tui-bbq-overland-park-2", "name": "Buck Tui BBQ", "image_url":
+        "https://s3-media4.fl.yelpcdn.com/bphoto/r46xQLID4qUN7LDkuLZD0A/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/buck-tui-bbq-overland-park-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 197, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "thai", "title": "Thai"}, {"alias": "sandwiches", "title": "Sandwiches"}],
+        "rating": 4.5, "coordinates": {"latitude": 38.992504, "longitude": -94.663946},
+        "transactions": [], "price": "$$", "location": {"address1": "6737 W 75th St",
+        "address2": null, "address3": "", "city": "Overland Park", "zip_code": "66204",
+        "country": "US", "state": "KS", "display_address": ["6737 W 75th St", "Overland
+        Park, KS 66204"]}, "phone": "+19132838255", "display_phone": "(913) 283-8255",
+        "distance": 12756.364746485615}, {"id": "3jdTCui8Ra9ifEv8JCnUmw", "alias":
+        "char-bar-kansas-city-2", "name": "Char Bar", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Ln8yowFjKbFRC_NOS4vxDw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/char-bar-kansas-city-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 1606, "categories": [{"alias": "southern", "title": "Southern"},
+        {"alias": "bbq", "title": "Barbeque"}, {"alias": "beergardens", "title": "Beer
+        Gardens"}], "rating": 4.0, "coordinates": {"latitude": 39.05369943223337,
+        "longitude": -94.59299924985986}, "transactions": ["restaurant_reservation",
+        "pickup", "delivery"], "price": "$$", "location": {"address1": "4050 Pennsylvania
+        Ave", "address2": "", "address3": "", "city": "Kansas City", "zip_code": "64111",
+        "country": "US", "state": "MO", "display_address": ["4050 Pennsylvania Ave",
+        "Kansas City, MO 64111"]}, "phone": "+18163898600", "display_phone": "(816)
+        389-8600", "distance": 12754.971135299958}], "total": 1700, "region": {"center":
+        {"longitude": -94.73098754882812, "latitude": 39.09471589907227}}}'
+  recorded_at: Mon, 15 Jan 2024 18:04:29 GMT
+recorded_with: VCR 6.2.0

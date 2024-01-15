@@ -4,5 +4,8 @@
 # sensitive information. See the ActiveSupport::ParameterFilter documentation for supported
 # notations and behaviors.
 Rails.application.config.filter_parameters += [
-  :passw, :secret, :token, :_key, :crypt, :salt, :certificate, :otp, :ssn
+  :passw, :secret, :token, :crypt, :salt, :certificate, :otp, :ssn
 ]
+
+# Remove :api_key from the array if it's present
+Rails.application.config.filter_parameters -= [:api_key]

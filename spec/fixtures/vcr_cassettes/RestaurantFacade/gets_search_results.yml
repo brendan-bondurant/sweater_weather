@@ -1,0 +1,272 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?location=denver,co&term=ice%20cream
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer XRH4RCvR8zmt8Q9_rxV9PUQxaCTzav4-TEJeXByMubmiK9m_gE0uO8-KOm9jDKo3LL7sEci866DZ2c2E6DIiBJT0Bj1K2mfVfji-JgzdWBjGqzY3zBH9HxDK57ycZXYx
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Resettime:
+      - '2024-01-16T00:00:00+00:00'
+      X-B3-Sampled:
+      - '0'
+      Server:
+      - envoy
+      X-Routing-Service:
+      - routing-main--useast1-74f644dc4b-h4js2; site=public_api_v3
+      X-Zipkin-Id:
+      - 1d6887c1040b25e5
+      Ratelimit-Dailylimit:
+      - '500.0'
+      Ratelimit-Remaining:
+      - '488.0'
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-92-52-useast1aprod
+      X-Extlb:
+      - 10-65-92-52-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 15 Jan 2024 16:46:12 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-chi-kigq8000176-CHI
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Alt-Svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "LXlVCu6G-buaxC8GlDjmLA", "alias": "little-man-ice-cream-denver",
+        "name": "Little Man Ice Cream", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rTfaOB-Q3veX4r7BndWdCA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/little-man-ice-cream-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 2785, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 4.5, "coordinates": {"latitude": 39.7594548,
+        "longitude": -105.01108}, "transactions": ["pickup"], "price": "$$", "location":
+        {"address1": "2620 16th St", "address2": "", "address3": "", "city": "Denver",
+        "zip_code": "80211", "country": "US", "state": "CO", "display_address": ["2620
+        16th St", "Denver, CO 80211"]}, "phone": "+13034553811", "display_phone":
+        "(303) 455-3811", "distance": 4389.610584864904}, {"id": "TQnGyQlagGiMdAwkC6XDMA",
+        "alias": "sweet-action-denver-12", "name": "Sweet Action", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/QqS-l9ttbSD0OnyU4EWYmg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sweet-action-denver-12?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 248, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 4.5, "coordinates": {"latitude": 39.7461676,
+        "longitude": -104.9807281}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "530 E 19th Ave", "address2": "", "address3": "", "city": "Denver",
+        "zip_code": "80203", "country": "US", "state": "CO", "display_address": ["530
+        E 19th Ave", "Denver, CO 80203"]}, "phone": "+17206006358", "display_phone":
+        "(720) 600-6358", "distance": 1484.5884735327688}, {"id": "JeQR_ov0Sox_tSg7tF8eaQ",
+        "alias": "liks-ice-cream-denver", "name": "Liks Ice Cream", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DubDmLr77lM3sandvUBW6Q/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/liks-ice-cream-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 455, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 4.5, "coordinates": {"latitude": 39.737, "longitude":
+        -104.9626}, "transactions": ["pickup", "delivery"], "price": "$$", "location":
+        {"address1": "2039 E 13th Ave", "address2": "", "address3": "", "city": "Denver",
+        "zip_code": "80206", "country": "US", "state": "CO", "display_address": ["2039
+        E 13th Ave", "Denver, CO 80206"]}, "phone": "+13033212370", "display_phone":
+        "(303) 321-2370", "distance": 682.3708025959645}, {"id": "ZBZJW6W_wOZU4W4VMwBQ0w",
+        "alias": "eiskaffee-denver-2", "name": "Eiskaffee", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NK4qFSi-LSyXB4Dptr3NPQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/eiskaffee-denver-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 18, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}, {"alias": "coffee", "title": "Coffee & Tea"}], "rating":
+        4.5, "coordinates": {"latitude": 39.73413925430665, "longitude": -104.98722815075809},
+        "transactions": [], "price": "$$", "location": {"address1": "1112 N Broadway",
+        "address2": "", "address3": "11th Avenue Hostel", "city": "Denver", "zip_code":
+        "80203", "country": "US", "state": "CO", "display_address": ["1112 N Broadway",
+        "11th Avenue Hostel", "Denver, CO 80203"]}, "phone": "+17204427500", "display_phone":
+        "(720) 442-7500", "distance": 1460.3416762083227}, {"id": "A1OlzeaFALKUnCf8ByeGBA",
+        "alias": "sweet-cooies-denver-2", "name": "Sweet Cooie''s", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sUNJALmmBspFy0nCQrE38w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sweet-cooies-denver-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 247, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}, {"alias": "chocolate", "title": "Chocolatiers & Shops"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.7349, "longitude": -104.9458499},
+        "transactions": ["delivery"], "price": "$", "location": {"address1": "3506
+        E 12th Ave", "address2": "", "address3": null, "city": "Denver", "zip_code":
+        "80206", "country": "US", "state": "CO", "display_address": ["3506 E 12th
+        Ave", "Denver, CO 80206"]}, "phone": "+17205507140", "display_phone": "(720)
+        550-7140", "distance": 2088.436677000748}, {"id": "mmzzmXl_9UaU8Y3ol9I6Sw",
+        "alias": "heaven-creamery-rino-denver", "name": "Heaven Creamery Rino", "image_url":
+        "https://s3-media4.fl.yelpcdn.com/bphoto/5Kn-oLBRXvCtCT8u-Vtp5g/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/heaven-creamery-rino-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 41, "categories": [{"alias": "gelato", "title": "Gelato"}],
+        "rating": 4.5, "coordinates": {"latitude": 39.76209, "longitude": -104.98129},
+        "transactions": ["pickup", "delivery"], "location": {"address1": "2935 Larimer
+        St", "address2": null, "address3": "", "city": "Denver", "zip_code": "80205",
+        "country": "US", "state": "CO", "display_address": ["2935 Larimer St", "Denver,
+        CO 80205"]}, "phone": "+13036580088", "display_phone": "(303) 658-0088", "distance":
+        3099.312034584757}, {"id": "79Sr9y4YiaHsS3-WE3-YGA", "alias": "sweet-action-denver-2",
+        "name": "Sweet Action", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/mAdH2T04akSmxoQIA-g-7w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sweet-action-denver-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 1045, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 4.5, "coordinates": {"latitude": 39.7174453735352,
+        "longitude": -104.987106323242}, "transactions": ["pickup"], "price": "$$",
+        "location": {"address1": "52 Broadway", "address2": null, "address3": "",
+        "city": "Denver", "zip_code": "80203", "country": "US", "state": "CO", "display_address":
+        ["52 Broadway", "Denver, CO 80203"]}, "phone": "+13032824645", "display_phone":
+        "(303) 282-4645", "distance": 2459.3977842355744}, {"id": "oH-zHKzNHzPBz-ecNFykBw",
+        "alias": "the-inventing-room-dessert-shop-denver-2", "name": "The Inventing
+        Room Dessert Shop", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/pJmZObcn18DOGe9tc4NI4w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-inventing-room-dessert-shop-denver-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 359, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}, {"alias": "desserts", "title": "Desserts"}, {"alias": "popuprestaurants",
+        "title": "Pop-Up Restaurants"}], "rating": 4.5, "coordinates": {"latitude":
+        39.75875, "longitude": -105.04485}, "transactions": ["pickup", "delivery"],
+        "price": "$", "location": {"address1": "4433 W 29th Ave", "address2": "Ste
+        101", "address3": "", "city": "Denver", "zip_code": "80212", "country": "US",
+        "state": "CO", "display_address": ["4433 W 29th Ave", "Ste 101", "Denver,
+        CO 80212"]}, "phone": "+13039606656", "display_phone": "(303) 960-6656", "distance":
+        6904.777125587587}, {"id": "VKtrn9WjmNtF7clrMQX7Kw", "alias": "sweet-izzy-denver",
+        "name": "Sweet Izzy", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/UY6S0No2x5RgqSWBQn3bRQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sweet-izzy-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 4, "categories": [{"alias": "desserts", "title": "Desserts"},
+        {"alias": "vegan", "title": "Vegan"}, {"alias": "icecream", "title": "Ice
+        Cream & Frozen Yogurt"}], "rating": 5.0, "coordinates": {"latitude": 39.721214,
+        "longitude": -104.951896}, "transactions": [], "location": {"address1": "3003
+        E 3rd Ave", "address2": "Ste B", "address3": null, "city": "Denver", "zip_code":
+        "80206", "country": "US", "state": "CO", "display_address": ["3003 E 3rd Ave",
+        "Ste B", "Denver, CO 80206"]}, "phone": "+13032846000", "display_phone": "(303)
+        284-6000", "distance": 2235.4055060563633}, {"id": "3DgDUyXSQqKGNXaym0tDzw",
+        "alias": "van-leeuwen-ice-cream-denver-denver", "name": "Van Leeuwen Ice Cream
+        - Denver", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Sw0MpK1IA-Hp9kh1jJccfg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/van-leeuwen-ice-cream-denver-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 54, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 4.5, "coordinates": {"latitude": 39.74824083074776,
+        "longitude": -104.9990739}, "transactions": ["pickup", "delivery"], "location":
+        {"address1": "1459 Larimer St", "address2": "", "address3": null, "city":
+        "Denver", "zip_code": "80202", "country": "US", "state": "CO", "display_address":
+        ["1459 Larimer St", "Denver, CO 80202"]}, "phone": "+17187011630", "display_phone":
+        "(718) 701-1630", "distance": 2841.668082072131}, {"id": "OzHCBPBiBt2hVGne7fwCAw",
+        "alias": "high-point-creamery-denver-2", "name": "High Point Creamery", "image_url":
+        "https://s3-media4.fl.yelpcdn.com/bphoto/pi70cBfrGM861ghAfuDV8Q/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/high-point-creamery-denver-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 180, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 4.5, "coordinates": {"latitude": 39.7594833374023,
+        "longitude": -104.984649658203}, "transactions": ["delivery"], "price": "$",
+        "location": {"address1": "2669 Larimer St", "address2": "", "address3": null,
+        "city": "Denver", "zip_code": "80205", "country": "US", "state": "CO", "display_address":
+        ["2669 Larimer St", "Denver, CO 80205"]}, "phone": "+17208050077", "display_phone":
+        "(720) 805-0077", "distance": 2921.008884449675}, {"id": "fbkjEQ06JZPmUdZxblEQZw",
+        "alias": "dang-soft-serve-ice-cream-denver", "name": "DANG Soft Serve Ice
+        Cream", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/DETdVj6p0l7WXxSwOKJwoA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/dang-soft-serve-ice-cream-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 168, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 4.0, "coordinates": {"latitude": 39.7503507455139,
+        "longitude": -104.908644839729}, "transactions": [], "price": "$$", "location":
+        {"address1": "2211 Oneida St", "address2": "", "address3": null, "city": "Denver",
+        "zip_code": "80207", "country": "US", "state": "CO", "display_address": ["2211
+        Oneida St", "Denver, CO 80207"]}, "phone": "", "display_phone": "", "distance":
+        5518.843152763782}, {"id": "qAFPl_ZMBM-gpkcVn7bLRQ", "alias": "sweet-action-denver-7",
+        "name": "Sweet Action", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/8tGsXEaohodoNzgQ-1Uj1g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sweet-action-denver-7?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 6, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 4.5, "coordinates": {"latitude": 39.74601, "longitude":
+        -104.98063}, "transactions": [], "location": {"address1": "530 E 19th Ave",
+        "address2": "", "address3": null, "city": "Denver", "zip_code": "80203", "country":
+        "US", "state": "CO", "display_address": ["530 E 19th Ave", "Denver, CO 80203"]},
+        "phone": "+17206006358", "display_phone": "(720) 600-6358", "distance": 1467.104096207562},
+        {"id": "Cfo9CMw6oW7DW9JvWDqqLA", "alias": "heaven-creamery-cherry-creek-denver",
+        "name": "Heaven Creamery Cherry Creek", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/B1xUATSuGPNxYorgifFhEA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/heaven-creamery-cherry-creek-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 85, "categories": [{"alias": "gelato", "title": "Gelato"},
+        {"alias": "icecream", "title": "Ice Cream & Frozen Yogurt"}, {"alias": "waffles",
+        "title": "Waffles"}], "rating": 4.5, "coordinates": {"latitude": 39.72051018041989,
+        "longitude": -104.9523585120598}, "transactions": [], "price": "$", "location":
+        {"address1": "299 Milwaukee St", "address2": null, "address3": "", "city":
+        "Denver", "zip_code": "80206", "country": "US", "state": "CO", "display_address":
+        ["299 Milwaukee St", "Denver, CO 80206"]}, "phone": "+13036356779", "display_phone":
+        "(303) 635-6779", "distance": 2281.686501548642}, {"id": "tK4LH5cow42rKAOycm-wDA",
+        "alias": "nuggs-ice-cream-denver", "name": "Nuggs Ice Cream", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/THmyIV4atD-Pk6H6USC9rw/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/nuggs-ice-cream-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 291, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}, {"alias": "desserts", "title": "Desserts"}], "rating":
+        4.5, "coordinates": {"latitude": 39.7406019945942, "longitude": -104.927745092741},
+        "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
+        "5135 E Colfax Ave", "address2": "", "address3": "", "city": "Denver", "zip_code":
+        "80220", "country": "US", "state": "CO", "display_address": ["5135 E Colfax
+        Ave", "Denver, CO 80220"]}, "phone": "+17204659473", "display_phone": "(720)
+        465-9473", "distance": 3677.630583278554}, {"id": "YsmxEEokPZqhvgzAwkx2aQ",
+        "alias": "scoops-denver", "name": "Scoops", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/uMOP9ujGhpeXfkz1zcDLCg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/scoops-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 42, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 5.0, "coordinates": {"latitude": 39.7493399,
+        "longitude": -104.96991}, "transactions": ["pickup", "delivery"], "location":
+        {"address1": "1426 E 22nd Ave", "address2": null, "address3": "", "city":
+        "Denver", "zip_code": "80205", "country": "US", "state": "CO", "display_address":
+        ["1426 E 22nd Ave", "Denver, CO 80205"]}, "phone": "+13038303198", "display_phone":
+        "(303) 830-3198", "distance": 1532.3160070914707}, {"id": "bX9TjEee0-GQnQt5xA2SJQ",
+        "alias": "savageau-coffee-and-ice-cream-denver", "name": "Savageau Coffee
+        And Ice Cream", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/UWzzXKfW02Cypl8Uk4a8ag/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/savageau-coffee-and-ice-cream-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 2, "categories": [{"alias": "coffee", "title": "Coffee & Tea"},
+        {"alias": "icecream", "title": "Ice Cream & Frozen Yogurt"}, {"alias": "coffeeroasteries",
+        "title": "Coffee Roasteries"}], "rating": 5.0, "coordinates": {"latitude":
+        39.739854327876365, "longitude": -104.9601049}, "transactions": ["delivery"],
+        "location": {"address1": "2260 E Colfax Ave", "address2": "Ste 102", "address3":
+        null, "city": "Denver", "zip_code": "80206", "country": "US", "state": "CO",
+        "display_address": ["2260 E Colfax Ave", "Ste 102", "Denver, CO 80206"]},
+        "phone": "", "display_phone": "", "distance": 991.7906226767483}, {"id": "x4MRGP6c63RkDhZuvw7urw",
+        "alias": "mykings-ice-cream-denver", "name": "MyKings Ice Cream", "image_url":
+        "https://s3-media3.fl.yelpcdn.com/bphoto/9ZHALRppoQ8pLx5BF0Xpgg/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/mykings-ice-cream-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 62, "categories": [{"alias": "desserts", "title": "Desserts"},
+        {"alias": "icecream", "title": "Ice Cream & Frozen Yogurt"}, {"alias": "shavedice",
+        "title": "Shaved Ice"}], "rating": 5.0, "coordinates": {"latitude": 39.757416,
+        "longitude": -104.940902}, "transactions": ["pickup", "delivery"], "location":
+        {"address1": "2851 Colorado Blvd", "address2": null, "address3": "", "city":
+        "Denver", "zip_code": "80207", "country": "US", "state": "CO", "display_address":
+        ["2851 Colorado Blvd", "Denver, CO 80207"]}, "phone": "+17204730475", "display_phone":
+        "(720) 473-0475", "distance": 3495.612201567397}, {"id": "ASJLIJYm3K9lqM7feV3TIQ",
+        "alias": "milk-tea-people-denver", "name": "Milk Tea People", "image_url":
+        "https://s3-media1.fl.yelpcdn.com/bphoto/I8XBgb9cE2hyk1NwMnjQUw/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/milk-tea-people-denver?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 268, "categories": [{"alias": "tea", "title": "Tea Rooms"}],
+        "rating": 5.0, "coordinates": {"latitude": 39.75068130379637, "longitude":
+        -104.99789990221254}, "transactions": [], "location": {"address1": "1641 Market
+        St", "address2": "Suite 133", "address3": "", "city": "Denver", "zip_code":
+        "80202", "country": "US", "state": "CO", "display_address": ["1641 Market
+        St", "Suite 133", "Denver, CO 80202"]}, "phone": "+17209258969", "display_phone":
+        "(720) 925-8969", "distance": 2903.6521321260834}, {"id": "F1to92g8ngcQjuR5usuQcA",
+        "alias": "neveria-la-mexicana-denver-2", "name": "Neveria La Mexicana", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/cFJi1MVFhJwZNFUqWNqt7A/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/neveria-la-mexicana-denver-2?adjust_creative=OeisnwQ6_R7frLLrbt-TNw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OeisnwQ6_R7frLLrbt-TNw",
+        "review_count": 65, "categories": [{"alias": "icecream", "title": "Ice Cream
+        & Frozen Yogurt"}], "rating": 4.5, "coordinates": {"latitude": 39.7674929486866,
+        "longitude": -104.899806010333}, "transactions": ["pickup", "delivery"], "price":
+        "$", "location": {"address1": "7506 East 36th Ave", "address2": "", "address3":
+        null, "city": "Denver", "zip_code": "80238", "country": "US", "state": "CO",
+        "display_address": ["7506 East 36th Ave", "Denver, CO 80238"]}, "phone": "+13033220461",
+        "display_phone": "(303) 322-0461", "distance": 6992.748962917388}], "total":
+        2400, "region": {"center": {"longitude": -104.97024536132812, "latitude":
+        39.73552421220229}}}'
+  recorded_at: Mon, 15 Jan 2024 16:46:12 GMT
+recorded_with: VCR 6.2.0

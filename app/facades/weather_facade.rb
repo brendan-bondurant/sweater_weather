@@ -1,11 +1,10 @@
 class WeatherFacade
-  def initialize(city, state)
-    @city = city
-    @state = state
+  def initialize(location)
+    @location = location
   end
 
   def weather_info
-    location = LocationService.new.lat_lon(@city, @state)
+    location = LocationService.new.lat_lon(@location)
     latitude = location["lat"]
     longitude = location["lng"]
     json = WeatherService.new.forecast(latitude, longitude)
