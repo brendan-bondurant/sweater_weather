@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2024-01-15T21:26:03-07:00">2024-01-15T21:26:03-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2024-01-16T09:59:28-07:00">2024-01-16T09:59:28-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,7 +23,7 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  99.5%
+  99.52%
 </span>
 
      </span>
@@ -39,15 +39,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>46</b> files in total.
+    <b>48</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>404</b> relevant lines,
-    <span class="green"><b>402</b> lines covered</span> and
+    <b>417</b> relevant lines,
+    <span class="green"><b>415</b> lines covered</span> and
     <span class="red"><b>2</b> lines missed. </span>
     (<span class="green">
-  99.5%
+  99.52%
 </span>
 )
   </div>
@@ -126,6 +126,17 @@
           </tr>
         
           <tr class="t-file">
+            <td class="strong t-file__name"><a href="#d9646d8ae9a7bbca867b3534b71ea5780b0ae143" class="src_link" title="app/facades/directions_facade.rb">app/facades/directions_facade.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">12</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
             <td class="strong t-file__name"><a href="#cee4b83148a4f4af4bbbb0561b1b20eb1a0ed0ac" class="src_link" title="app/facades/restaurant_facade.rb">app/facades/restaurant_facade.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">13</td>
@@ -143,7 +154,7 @@
             <td class="cell--number">21</td>
             <td class="cell--number">21</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">16.14</td>
+            <td class="cell--number">16.43</td>
             
           </tr>
         
@@ -242,7 +253,7 @@
             <td class="cell--number">10</td>
             <td class="cell--number">10</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">6.70</td>
+            <td class="cell--number">7.40</td>
             
           </tr>
         
@@ -253,7 +264,7 @@
             <td class="cell--number">10</td>
             <td class="cell--number">10</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">6.70</td>
+            <td class="cell--number">7.40</td>
             
           </tr>
         
@@ -351,6 +362,17 @@
             <td class="cell--number">16</td>
             <td class="cell--number">9</td>
             <td class="cell--number">9</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#ce91fb70e9b17e771a1efc567031bce5b7bdc29b" class="src_link" title="spec/facades/restaurant_facade_spec.rb">spec/facades/restaurant_facade_spec.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">10</td>
+            <td class="cell--number">6</td>
+            <td class="cell--number">6</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -2145,6 +2167,169 @@
 </div>
 
       
+        <div class="source_table" id="d9646d8ae9a7bbca867b3534b71ea5780b0ae143">
+  <div class="header">
+    <h3>app/facades/directions_facade.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>7</b> relevant lines.
+      <span class="green"><b>7</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class DirectionsFacade</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def initialize(from, to)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @from = from</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @to = to</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def weather_at_to</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    json = WeatherFacade.new(@to).weather_info</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    json</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
         <div class="source_table" id="cee4b83148a4f4af4bbbb0561b1b20eb1a0ed0ac">
   <div class="header">
     <h3>app/facades/restaurant_facade.rb</h3>
@@ -2368,8 +2553,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="11" data-linenumber="3">
-            <span class="hits">11</span>
+          <li class="covered" data-hits="12" data-linenumber="3">
+            <span class="hits">12</span>
             
 
             
@@ -2412,8 +2597,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="8" data-linenumber="7">
-            <span class="hits">8</span>
+          <li class="covered" data-hits="9" data-linenumber="7">
+            <span class="hits">9</span>
             
 
             
@@ -2423,8 +2608,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="8" data-linenumber="8">
-            <span class="hits">8</span>
+          <li class="covered" data-hits="9" data-linenumber="8">
+            <span class="hits">9</span>
             
 
             
@@ -2434,8 +2619,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="8" data-linenumber="9">
-            <span class="hits">8</span>
+          <li class="covered" data-hits="9" data-linenumber="9">
+            <span class="hits">9</span>
             
 
             
@@ -2445,8 +2630,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="8" data-linenumber="10">
-            <span class="hits">8</span>
+          <li class="covered" data-hits="9" data-linenumber="10">
+            <span class="hits">9</span>
             
 
             
@@ -2456,8 +2641,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="8" data-linenumber="11">
-            <span class="hits">8</span>
+          <li class="covered" data-hits="9" data-linenumber="11">
+            <span class="hits">9</span>
             
 
             
@@ -4088,8 +4273,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="10" data-linenumber="3">
-            <span class="hits">10</span>
+          <li class="covered" data-hits="11" data-linenumber="3">
+            <span class="hits">11</span>
             
 
             
@@ -4132,8 +4317,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="7">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="7">
+            <span class="hits">10</span>
             
 
             
@@ -4143,8 +4328,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="8">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="8">
+            <span class="hits">10</span>
             
 
             
@@ -4154,8 +4339,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="9">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="9">
+            <span class="hits">10</span>
             
 
             
@@ -4165,8 +4350,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="10">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="10">
+            <span class="hits">10</span>
             
 
             
@@ -4187,8 +4372,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="12">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="12">
+            <span class="hits">10</span>
             
 
             
@@ -4209,8 +4394,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="14">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="14">
+            <span class="hits">10</span>
             
 
             
@@ -4306,8 +4491,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="10" data-linenumber="4">
-            <span class="hits">10</span>
+          <li class="covered" data-hits="11" data-linenumber="4">
+            <span class="hits">11</span>
             
 
             
@@ -4350,8 +4535,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="8">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="8">
+            <span class="hits">10</span>
             
 
             
@@ -4361,8 +4546,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="9">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="9">
+            <span class="hits">10</span>
             
 
             
@@ -4372,8 +4557,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="10">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="10">
+            <span class="hits">10</span>
             
 
             
@@ -4383,8 +4568,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="11">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="11">
+            <span class="hits">10</span>
             
 
             
@@ -4394,8 +4579,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="12">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="12">
+            <span class="hits">10</span>
             
 
             
@@ -4416,8 +4601,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="9" data-linenumber="14">
-            <span class="hits">9</span>
+          <li class="covered" data-hits="10" data-linenumber="14">
+            <span class="hits">10</span>
             
 
             
@@ -6863,6 +7048,147 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="ce91fb70e9b17e771a1efc567031bce5b7bdc29b">
+  <div class="header">
+    <h3>spec/facades/restaurant_facade_spec.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>6</b> relevant lines.
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;rails_helper&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe RestaurantFacade do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;gets unfiltered results&#39;, :vcr do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    location = &#39;denver,co&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    food = &#39;ice cream&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">    </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    search_results = RestaurantFacade.new(food, location).restaurant_info</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
             
             
 
