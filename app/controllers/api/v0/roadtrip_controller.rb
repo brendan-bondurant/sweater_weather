@@ -1,22 +1,21 @@
 class Api::V0::RoadtripController < ApplicationController
 
   def create
-    
-    origin = params["origin"]
-    destination = params["destination"]
-    
-    directions_facade = DirectionsFacade.new(origin, destination)
-
-    forecast = directions_facade.eta_weather
-    travel_time = directions_facade.travel_time
-
-    if travel_time.nil?
-      render json: no_route(origin, destination)
+    if @user = User.find_by(api_key: params[:api_key])
+      origin = params["origin"]
+      destination = params["destination"]
+      directions_facade = DirectionsFacade.new(origin, destination)
+      forecast = directions_facade.eta_weather
+      travel_time = directions_facade.travel_time
+      if travel_time.nil?
+        render json: no_route(origin, destination)
+      else
+        render json: route(origin, destination, travel_time, forecast)
+      end
     else
-      render json: route(origin, destination, travel_time, forecast)
-    end
+      render json: { errors: [{ detail: "Credentials are bad" }] }, status: :bad_request
   end
-
+end
   private
 
   def route(origin, destination, travel_time, forecast)
