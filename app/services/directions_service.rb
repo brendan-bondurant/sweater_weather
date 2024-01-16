@@ -16,4 +16,5 @@ class DirectionsService
     end
     data = JSON.parse(response.body) if response.success?
   end
+
 end
