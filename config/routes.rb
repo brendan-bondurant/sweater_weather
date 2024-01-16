@@ -4,7 +4,8 @@ Rails.application.routes.draw do
     namespace :v0 do
       resources :forecast, only: [:index]
       resources :users, only: [:create]
-      resources :sessions
+      resources :sessions, only: [:create]
+      resources :roadtrip
     end
     namespace :v1 do
       resources :munchies
