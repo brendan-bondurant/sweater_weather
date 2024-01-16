@@ -16,6 +16,9 @@ class DirectionsFacade
 
   def eta_weather
     forecast = weather_at_to
+    if travel_time.nil?
+      return nil
+    end
     time = travel_time.split(":").map(&:to_i)
     current_time = DateTime.parse(forecast["location"]["localtime"])
     exact_eta = current_time + time[0].hours + time[1].minutes + time[2].seconds

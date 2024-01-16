@@ -10,10 +10,10 @@ class Api::V0::RoadtripController < ApplicationController
     forecast = directions_facade.eta_weather
     travel_time = directions_facade.travel_time
 
-    if travel_time != nil
-      render json: route(origin, destination, travel_time, forecast)
-    else
+    if travel_time.nil?
       render json: no_route(origin, destination)
+    else
+      render json: route(origin, destination, travel_time, forecast)
     end
   end
 
