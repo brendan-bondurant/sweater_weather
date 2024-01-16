@@ -17,6 +17,8 @@ class Api::V0::RoadtripController < ApplicationController
     end
   end
 
+  private
+
   def route(origin, destination, travel_time, forecast)
     response_data = {
       data: {
@@ -35,6 +37,7 @@ class Api::V0::RoadtripController < ApplicationController
       }
     }
   end
+  
   def no_route(origin, destination)
     response_data = {
         data: {
