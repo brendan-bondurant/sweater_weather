@@ -20,7 +20,7 @@ This API-based application provides the back-end data to provide weather informa
    ```
 
 5. Obtain API keys:
-   - You will need API keys for [MapQuest's Geocoding API](https://developer.mapquest.com/documentation/) and a [Weather API](https://www.weatherapi.com/signup.aspx) provider.
+   - You will need API keys for [MapQuest's Geocoding API](https://developer.mapquest.com/documentation/) and a [Weather API](https://www.weatherapi.com/signup.aspx) provider. A [Yelp fusion API key](https://docs.developer.yelp.com/docs/fusion-intro) is needed for the additional munchies controller
 
 6. Configure your API keys:
    - Run `$ EDITOR="code --wait" rails credentials:edit` and add it to the .yml file. Save the file and close it
