@@ -35,7 +35,6 @@ RSpec.describe DirectionsFacade do
     to = 'salida,co'
 
     weather_at_eta = DirectionsFacade.new(from, to).eta_weather
-    require 'pry'; binding.pry
     expect(weather_at_eta["time"]).to eq("2024-01-17 05:00")
   end
   

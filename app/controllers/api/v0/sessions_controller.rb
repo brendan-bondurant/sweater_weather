@@ -3,7 +3,7 @@ class Api::V0::SessionsController < ApplicationController
     @user = User.find_by(email: params[:email])
 
     if @user.authenticate(params[:password])
-      render json: user_response, status: :created
+      render json: user_response, status: :ok
     else
       render json: { errors: [{ detail: "Credentials are bad" }] }, status: :bad_request
     end
