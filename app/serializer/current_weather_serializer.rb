@@ -1,11 +1,18 @@
-# class CurrentWeatherSerializer
-#   include JSONAPI::Serializer
-#   attributes :last_updated, :temperature, :feels_like, :humidity, :uvi, :visibility, :condition_text, :condition_icon
+class CurrentWeatherSerializer
+  def initialize(current)
+    @current = current
+  end
 
-#   def condition
-#     {
-#       text: object[:condition][:text],
-#       icon: object[:condition][:icon]
-#     }
-#   end
-# end
+    def serialize
+      {
+        "last_updated": @current["last_updated"],
+        "temperature": @current["temp_f"].to_f,
+        "feels_like": @current["feelslike_f"].to_f,
+        "humidity": @current["humidity"].to_i,
+        "uvi": @current["uv"].to_f,
+        "visibility": @current["vis_miles"].to_f,
+        "condition": @current["condition"]["text"],
+        "icon": @current["condition"]["icon"]
+      }
+  end
+end
