@@ -10,27 +10,35 @@ class WeatherFacade
     json = WeatherService.new.forecast(latitude, longitude)
     json
   end
-
+  
   def formatted_weather_info
     json = weather_info
+    current = WeatherCurrent.new(json["current"]).format_current_weather
+    daily = WeatherDaily.new(json["forecast"]["forecastday"]).format_daily_weather
+    hourly = WeatherHourly.new((json["forecast"]["forecastday"].first["hour"])).format_hourly_weather
+    # require 'pry'; binding.pry
 
     {
       "data": {
         "id": nil,
         "type": 'forecast',
-        "attributes": {
-          "current_weather": CurrentWeatherSerializer.new(json["current"]).serialize,
+        "attributes": { 
+          "current_weather": current,
+          "daily_weather": daily,
+          "hourly_weather": hourly
+          # "current_weather": CurrentWeatherSerializer.new(json["current"]).serialize,
           # "current_weather": format_current_weather(json["current"]),
-          "daily_weather": DailyWeatherSerializer.new(json["forecast"]["forecastday"]).serialize,
+          # "daily_weather": DailyWeatherSerializer.new(json["forecast"]["forecastday"]).serialize,
           # "daily_weather": format_daily_weather(json["forecast"]["forecastday"]),
-          "hourly_weather": HourlyWeatherSerializer.new(json["forecast"]["forecastday"].first["hour"]).serialize
+          # "hourly_weather": HourlyWeatherSerializer.new(json["forecast"]["forecastday"].first["hour"]).serialize
           # "hourly_weather": format_hourly_weather(json["forecast"]["forecastday"].first["hour"])
         }
       }
     }
   end
+end
 
-  private
+  # private
 
   # def format_current_weather(current)
   #   {
@@ -69,4 +77,3 @@ class WeatherFacade
   #     }
   #   end
   # end
-end

@@ -1,3 +1,18 @@
+class WeatherDaily
+
+  def initialize(daily)
+    @daily = daily
+  end
+
+  def format_daily_weather
+    DailyWeatherSerializer.new(@daily).serialize
+  end
+end
+
+
+
+
+
 # class DailyWeather
 # #   attr_accessor :date, :sunrise, :sunset, :max_temp, :min_temp, :condition, :icon
 #   def initialize(daily)

@@ -14,6 +14,17 @@ class DirectionsFacade
     json["route"]["formattedTime"]
   end
 
+  def formatted_time
+    # hrs_to_days = travel_time.split(":")
+    # total_hrs = hrs_to_days.shift.to_i
+    # days = (total_hrs / 24).to_s
+    # hours =  (total_hrs % 24).to_s
+    # hrs_to_days.unshift(hours)
+    # hrs_to_days.unshift(days)
+
+    # require 'pry'; binding.pry
+  end
+
   def eta_weather
     forecast = weather_at_to
     if travel_time.nil?

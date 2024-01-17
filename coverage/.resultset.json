@@ -574,9 +574,16 @@
           null,
           1,
           8,
+          8,
+          8,
+          8,
+          null,
           null,
           null,
           8,
+          null,
+          null,
+          null,
           null,
           null,
           null,
@@ -1295,6 +1302,11 @@
           null
         ]
       },
+      "/Users/brendanbondurant/3mod/projects/sweater_weather/spec/serializer/weather_serializer_spec.rb": {
+        "lines": [
+
+        ]
+      },
       "/Users/brendanbondurant/3mod/projects/sweater_weather/spec/services/directions_service_spec.rb": {
         "lines": [
           1,
@@ -1486,6 +1498,127 @@
           null
         ]
       },
+      "/Users/brendanbondurant/3mod/projects/sweater_weather/app/poros/weather_current.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          8,
+          null,
+          null,
+          1,
+          8,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/brendanbondurant/3mod/projects/sweater_weather/app/poros/weather_daily.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          8,
+          null,
+          null,
+          1,
+          8,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/brendanbondurant/3mod/projects/sweater_weather/app/poros/weather_hourly.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          8,
+          null,
+          null,
+          1,
+          8,
+          null,
+          null
+        ]
+      },
       "/Users/brendanbondurant/3mod/projects/sweater_weather/app/controllers/api/v0/sessions_controller.rb": {
         "lines": [
           1,
@@ -1561,6 +1694,6 @@
         ]
       }
     },
-    "timestamp": 1705442976
+    "timestamp": 1705446135
   }
 }
