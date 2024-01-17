@@ -9,6 +9,6 @@ end
 
 private
 
-def location_params
-  params.permit(:location)
-end
+# def location_params
+#   params.permit(:location)
+# end

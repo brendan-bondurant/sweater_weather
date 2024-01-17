@@ -30,6 +30,22 @@ RSpec.describe DirectionsFacade do
     weather_at_eta = DirectionsFacade.new(from, to).eta_weather
     expect(weather_at_eta).to eq({"time"=>"2024-01-16 21:00", "temp_f"=>6.6, "condition"=>{"text"=>"Clear", "icon"=>"//cdn.weatherapi.com/weather/64x64/night/113.png", "code"=>1000}, "short_rad"=>0.04, "diff_rad"=>0.02})
   end
+  it 'gets weather at eta round down', :vcr do
+    from = 'olathe,ks'
+    to = 'salida,co'
+
+    weather_at_eta = DirectionsFacade.new(from, to).eta_weather
+    require 'pry'; binding.pry
+    expect(weather_at_eta["time"]).to eq("2024-01-17 05:00")
+  end
+  
+  it 'gets returns nil if travel not possible', :vcr do
+    from = 'olathe,ks'
+    to = 'honolulu,hi'
+
+    weather_at_eta = DirectionsFacade.new(from, to).eta_weather
+    expect(weather_at_eta).to eq(nil)
+  end
 
   it 'finds the weather', :vcr do
     from = "Boulder,CO"
